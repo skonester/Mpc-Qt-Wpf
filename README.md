@@ -6,7 +6,7 @@
 
 What This Project Does
 - WPF Frontend
-- Provides a modern Windows UI with playback buttons (Open File, Play/Pause, Stop) and a status text area.
+- Provides a classic Windows UI with playback buttons (Open File, Play/Pause, Stop) and a status text area.
 - Uses a WindowsFormsHost to embed a WinForms Panel inside WPF — this is where mpv renders video.
 - libmpv Integration
 - Through MpvInterop.cs, you call into the native libmpv-2.dll.

@@ -28,7 +28,7 @@ MpcQtWpf is a modern WPF media player frontend built on the .NET 7 framework, po
 
 ## Requirements
 - .NET 7 framework
-- `libmpv-2.dll` (place in your `bin\Debug\net7.0-windows` folder during development)
+- `libmpv-2.dll` (place in main folder during development)
 - `yt-dlp.exe` (already included in the project)
 
 ## Installation

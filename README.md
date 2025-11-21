@@ -1,5 +1,5 @@
-requires libmpv-2.dll
-built on .NET 7
+-requires libmpv-2.dll
+-built on .NET 7 framework
 
 🎬 MpcQtWpf — WPF Media Player with libmpv( inspired by MPC-QT)
 

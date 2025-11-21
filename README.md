@@ -1,4 +1,5 @@
 requires libmpv-2.dll
+built on .NET 7
 
 🎬 MpcQtWpf — WPF Media Player with libmpv( inspired by MPC-QT)
 

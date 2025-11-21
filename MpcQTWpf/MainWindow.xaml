@@ -1,20 +1,35 @@
-<Window x:Class="MpcQtWpf.MainWindow"
+﻿<Window x:Class="MpcQtWpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
         Title="MPC-QT WPF (libmpv)" Height="540" Width="960">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-
         <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="8">
             <Button Content="Open File" Click="OpenFile_Click"/>
             <Button Content="Play/Pause" Click="PlayPause_Click"/>
             <Button Content="Stop" Click="Stop_Click"/>
+
+            <!-- NEW: Seek bar -->
+            <Slider x:Name="SeekBar" Width="200" Minimum="0" Maximum="100"
+                    ValueChanged="SeekBar_ValueChanged"/>
+
+            <!-- NEW: Volume slider -->
+            <Slider x:Name="VolumeSlider" Width="100" Minimum="0" Maximum="100"
+                    Value="50" ValueChanged="VolumeSlider_ValueChanged"/>
+
+            <!-- NEW: Extra buttons based on mpv features -->
+            <Button Content="Subtitles" Click="ToggleSubtitles_Click"/>
+            <Button Content="Audio Track" Click="CycleAudioTrack_Click"/>
+            <Button Content="Hardware Accel" Click="ToggleHwAccel_Click"/>
+            <Button Content="Stats Overlay" Click="ToggleStats_Click"/>
+            <Button Content="Open URL" Click="OpenUrl_Click"/>
         </StackPanel>
 
         <Border Grid.Row="1" Margin="8" Background="Black">
@@ -26,3 +41,4 @@
         <TextBlock Grid.Row="2" Margin="8" x:Name="StatusText" Text="Ready" />
     </Grid>
 </Window>
+<!-- ← this must be present -->

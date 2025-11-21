@@ -31,15 +31,36 @@ namespace MpcQtWpf.Services
             MpvInterop.mpv_set_option(_mpv, "wid", MpvInterop.mpv_format.MPV_FORMAT_INT64, ref wid);
         }
 
-        public void LoadFile(string path)
+        public void LoadFile(string pathOrUrl)
         {
             // Escape backslashes so mpv parses Windows paths correctly
-            string escaped = path.Replace("\\", "\\\\");
+            string escaped = pathOrUrl.Replace("\\", "\\\\");
             MpvInterop.mpv_command_string(_mpv, $"loadfile \"{escaped}\"");
         }
 
         public void TogglePause() => MpvInterop.mpv_command_string(_mpv, "cycle pause");
         public void Stop() => MpvInterop.mpv_command_string(_mpv, "stop");
+
+        public void CycleAudioTrack() => MpvInterop.mpv_command_string(_mpv, "cycle audio");
+        public void ToggleSubtitles() => MpvInterop.mpv_command_string(_mpv, "cycle sub");
+        public void ToggleStats() => MpvInterop.mpv_command_string(_mpv, "script-message stats-toggle");
+
+        public void Seek(double positionSeconds)
+        {
+            MpvInterop.mpv_command_string(_mpv, $"seek {positionSeconds} absolute");
+        }
+
+        public void ToggleHwAccel()
+        {
+            // This tells mpv to toggle hardware decoding
+            MpvInterop.mpv_command_string(_mpv, "set hwdec auto");
+        }
+
+        public void SetVolume(double volumePercent)
+        {
+            // mpv expects volume as a percentage (0–100)
+            MpvInterop.mpv_command_string(_mpv, $"set volume {volumePercent}");
+        }
 
         public void Dispose()
         {

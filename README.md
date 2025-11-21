@@ -29,4 +29,3 @@ When you run the application:
 
 👉 In Short
 MpcQtWpf is a lightweight yet extensible WPF wrapper around libmpv, built on .NET 7, with YouTube‑DL/yt‑dlp integration for streaming support. It provides the foundation for a full‑featured media player — ready to expand with seek bars, playlists, volume control, subtitle management, and more.
-

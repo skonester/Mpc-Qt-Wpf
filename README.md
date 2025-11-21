@@ -1,6 +1,8 @@
 requires libmpv-2.dll
 
 🎬 MpcQtWpf — WPF Media Player with libmpv( inspired by MPC-QT)
+
+
 What This Project Does
 - WPF Frontend
 - Provides a modern Windows UI with playback buttons (Open File, Play/Pause, Stop) and a status text area.

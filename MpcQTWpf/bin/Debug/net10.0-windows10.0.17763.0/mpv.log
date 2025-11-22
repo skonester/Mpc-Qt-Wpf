@@ -1,0 +1,1622 @@
+[   0.000][d][global] user path: 'mpv.log' -> 'mpv.log'
+[   0.003][v][cplayer] mpv v0.36.0-403-g652a1dd907 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects
+[   0.003][v][cplayer]  built on Sep 24 2023 07:46:37
+[   0.003][v][cplayer] FFmpeg version: n6.0
+[   0.003][v][cplayer] FFmpeg library versions:
+[   0.003][v][cplayer]    libavutil       58.2.100
+[   0.003][v][cplayer]    libavcodec      60.3.100
+[   0.003][v][cplayer]    libavformat     60.3.100
+[   0.003][v][cplayer]    libswscale      7.1.100
+[   0.003][v][cplayer]    libavfilter     9.3.100
+[   0.003][v][cplayer]    libswresample   4.10.100
+[   0.003][v][cplayer] 
+[   0.003][v][cplayer] Configuration: -Dc_link_args=-Wl,--gc-sections -Dcpp_link_args=-Wl,--gc-sections -Dgpl=false -Db_lto=true -Db_ndebug=true -Dlibmpv=true -Dpdf-build=enabled -Dlua=disabled -Djavascript=enabled -Duchardet=enabled -Dlcms2=enabled -Dopenal=disabled -Dspirv-cross=enabled -Dvulkan=disabled -Dlibplacebo=disabled -Degl-angle=enabled -Dprefix=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw -Dlibdir=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw/lib -Dbuildtype=release -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/meson_cross.txt
+[   0.003][v][cplayer] List of enabled features: av-channel-layout avif-muxer build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel dos-paths egl-angle egl-angle-win32 egl-helpers ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 iconv javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libm manpage-build noexecstack pdf-build shaderc spirv-cross stdatomic threads uchardet vector wasapi win32 win32-desktop win32-executable win32-internal-pthreads zimg zimg-st428 zlib
+[   0.003][v][cplayer] Built with NDEBUG.
+[   0.003][v][cplayer] mpv v0.36.0-403-g652a1dd907 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects
+[   0.003][v][cplayer]  built on Sep 24 2023 07:46:37
+[   0.003][v][cplayer] FFmpeg version: n6.0
+[   0.003][v][cplayer] FFmpeg library versions:
+[   0.003][v][cplayer]    libavutil       58.2.100
+[   0.003][v][cplayer]    libavcodec      60.3.100
+[   0.003][v][cplayer]    libavformat     60.3.100
+[   0.003][v][cplayer]    libswscale      7.1.100
+[   0.003][v][cplayer]    libavfilter     9.3.100
+[   0.003][v][cplayer]    libswresample   4.10.100
+[   0.003][v][cplayer] 
+[   0.003][v][cplayer] Configuration: -Dc_link_args=-Wl,--gc-sections -Dcpp_link_args=-Wl,--gc-sections -Dgpl=false -Db_lto=true -Db_ndebug=true -Dlibmpv=true -Dpdf-build=enabled -Dlua=disabled -Djavascript=enabled -Duchardet=enabled -Dlcms2=enabled -Dopenal=disabled -Dspirv-cross=enabled -Dvulkan=disabled -Dlibplacebo=disabled -Degl-angle=enabled -Dprefix=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw -Dlibdir=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/install/mingw/lib -Dbuildtype=release -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/libmpv-win32-video-build/libmpv-win32-video-build/mpv-winbuild-cmake/build64/meson_cross.txt
+[   0.003][v][cplayer] List of enabled features: av-channel-layout avif-muxer build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel dos-paths egl-angle egl-angle-win32 egl-helpers ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 iconv javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libm manpage-build noexecstack pdf-build shaderc spirv-cross stdatomic threads uchardet vector wasapi win32 win32-desktop win32-executable win32-internal-pthreads zimg zimg-st428 zlib
+[   0.003][v][cplayer] Built with NDEBUG.
+[   0.003][d][global] home path: '' -> '-'
+[   0.003][d][global] user path: '~~home/' -> ''
+[   0.003][d][global] user path: '~~old_home/' -> ''
+[   0.004][d][global] user path: 'mpv.log' -> 'mpv.log'
+[   0.159][d][cplayer] Setting option 'wid' = 9569786 (flags = 0) -> 0
+[   3.265][d][cplayer] Run command: loadfile, flags=73, args=[url="C:\\Users\\admin\\Videos\\NVIDIA\\NBA 2K25\\NBA 2K25 2025.11.19 - 01.11.59.01.mp4", flags="replace", options=""]
+[   3.265][d][global] state path: 'watch_later' -> '-'
+[   3.265][d][cplayer] Run command: set, flags=73, args=[name="pause", value="no"]
+[   3.265][v][cplayer] Set property: pause=no -> 1
+[   3.265][v][file] Opening C:\Users\admin\Videos\NVIDIA\NBA 2K25\NBA 2K25 2025.11.19 - 01.11.59.01.mp4
+[   3.266][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   3.266][d][file] Stream opened successfully.
+[   3.266][v][demux] Trying demuxers for level=normal.
+[   3.266][d][demux] Trying demuxer: disc (force-level: normal)
+[   3.266][d][demux] Trying demuxer: edl (force-level: normal)
+[   3.266][d][demux] Trying demuxer: cue (force-level: normal)
+[   3.266][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   3.266][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   3.266][d][demux] Trying demuxer: mkv (force-level: normal)
+[   3.266][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   3.266][d][demux] Trying demuxer: lavf (force-level: normal)
+[   3.267][v][lavf] Found 'mov,mp4,m4a,3gp,3g2,mj2' at score=100 size=2048.
+[   3.268][v][file] stream level seek from 131072 to 6044039389
+[   3.294][v][demux] Detected file format: mov,mp4,m4a,3gp,3g2,mj2 (libavformat)
+[   3.294][v][cplayer] Opening done: C:\Users\admin\Videos\NVIDIA\NBA 2K25\NBA 2K25 2025.11.19 - 01.11.59.01.mp4
+[   3.295][v][find_files] Loading external files in C:\Users\admin\Videos\NVIDIA\NBA 2K25\
+[   3.295][v][lavf] select track 0
+[   3.295][v][lavf] select track 1
+[   3.295][i][cplayer]  (+) Video --vid=1 (*) (h264 1920x1080 119.997fps)
+[   3.295][i][cplayer]  (+) Audio --aid=1 (*) (aac 2ch 48000Hz)
+[   3.295][i][display-tags] File tags:
+[   3.295][i][display-tags]  Date: 2025
+[   3.295][v][vo/gpu] Probing for best GPU context.
+[   3.295][v][vo/gpu/d3d11] Initializing GPU context 'd3d11'
+[   3.396][v][vo/gpu/d3d11] Using Direct3D 11 feature level 12_1
+[   3.396][v][vo/gpu/d3d11] Device Name: NVIDIA GeForce GTX 1660 SUPER
+[   3.396][v][vo/gpu/d3d11] Device ID: 10de:21c4 (rev a1)
+[   3.396][v][vo/gpu/d3d11] Subsystem ID: 1462:3797
+[   3.396][v][vo/gpu/d3d11] LUID: 000000000000de17
+[   3.396][v][vo/gpu/d3d11] Initializing SPIR-V compiler 'shaderc'
+[   3.396][v][vo/gpu/d3d11] Using Direct3D 11.1 runtime
+[   3.396][v][vo/gpu/d3d11] Maximum Texture2D size: 16384x16384
+[   3.398][v][vo/gpu/d3d11] D3DCompiler version: 10.0.26100.7171
+[   3.418][v][vo/gpu/win32] resize window: 944:463
+[   3.418][v][vo/gpu/win32] DPI detected from the new API: 96
+[   3.418][v][vo/gpu/win32] display-fps: 144.001000
+[   3.420][v][vo/gpu/win32] color-profile: C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   3.426][v][vo/gpu/d3d11] Using DXGI 1.2+
+[   3.426][v][vo/gpu/d3d11] Queried output: \\.\DISPLAY1, 1920x1080 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+[   3.426][v][vo/gpu/d3d11] Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+[   3.430][v][vo/gpu/d3d11] Using flip-model presentation
+[   3.430][d][vo/gpu/d3d11] Texture formats:
+[   3.430][d][vo/gpu/d3d11]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   3.430][d][vo/gpu/d3d11]   r8         1*unorm   1B    LF CR ST {8}
+[   3.430][d][vo/gpu/d3d11]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   3.430][d][vo/gpu/d3d11]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   3.430][d][vo/gpu/d3d11]   r16        1*unorm   2B    LF CR ST {16}
+[   3.430][d][vo/gpu/d3d11]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   3.430][d][vo/gpu/d3d11]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   3.430][d][vo/gpu/d3d11]   r32ui      1*uint    4B          ST {32}
+[   3.430][d][vo/gpu/d3d11]   rg32ui     2*uint    8B          ST {32 32}
+[   3.430][d][vo/gpu/d3d11]   rgb32ui    3*uint   12B             {32 32 32}
+[   3.430][d][vo/gpu/d3d11]   rgba32ui   4*uint   16B          ST {32 32 32 32}
+[   3.430][d][vo/gpu/d3d11]   r16hf      1*float   2B    LF CR ST {16}
+[   3.430][d][vo/gpu/d3d11]   rg16hf     2*float   4B    LF CR ST {16 16}
+[   3.430][d][vo/gpu/d3d11]   rgba16hf   4*float   8B    LF CR ST {16 16 16 16}
+[   3.430][d][vo/gpu/d3d11]   r32f       1*float   4B    LF CR ST {32}
+[   3.430][d][vo/gpu/d3d11]   rg32f      2*float   8B    LF CR ST {32 32}
+[   3.430][d][vo/gpu/d3d11]   rgb32f     3*float  12B             {32 32 32}
+[   3.430][d][vo/gpu/d3d11]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   3.430][d][vo/gpu/d3d11]   rgb10_a2   4*unorm   4B    LF CR ST {10 10 10 2}
+[   3.430][d][vo/gpu/d3d11]   bgra8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   3.430][d][vo/gpu/d3d11]   bgrx8      3*unorm   4B    LF CR    {8 8 8}
+[   3.430][d][vo/gpu/d3d11]  LA = LUMINANCE_ALPHA hack format
+[   3.430][d][vo/gpu/d3d11]  LF = linear filterable
+[   3.430][d][vo/gpu/d3d11]  CR = can be used for render targets
+[   3.430][d][vo/gpu/d3d11]  ST = can be used for storable images
+[   3.430][d][vo/gpu/d3d11] Image formats:
+[   3.430][d][vo/gpu/d3d11]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   uyvy422
+[   3.430][d][vo/gpu/d3d11]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   3.430][d][vo/gpu/d3d11]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   3.430][d][vo/gpu/d3d11]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   3.430][d][vo/gpu/d3d11]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   3.430][d][vo/gpu/d3d11]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   3.430][d][vo/gpu/d3d11]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   3.430][d][vo/gpu/d3d11]   bgr24
+[   3.430][d][vo/gpu/d3d11]   rgb24
+[   3.430][d][vo/gpu/d3d11]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   3.430][d][vo/gpu/d3d11]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   3.430][d][vo/gpu/d3d11]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   3.430][d][vo/gpu/d3d11]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   3.430][d][vo/gpu/d3d11]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   3.430][d][vo/gpu/d3d11]   rgb565
+[   3.430][d][vo/gpu/d3d11]   pal8
+[   3.430][d][vo/gpu/d3d11]   vdpau
+[   3.430][d][vo/gpu/d3d11]   d3d11
+[   3.430][d][vo/gpu/d3d11]   dxva2_vld
+[   3.430][d][vo/gpu/d3d11]   mmal
+[   3.430][d][vo/gpu/d3d11]   mediacodec
+[   3.430][d][vo/gpu/d3d11]   cuda
+[   3.430][d][vo/gpu/d3d11]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   3.430][d][vo/gpu/d3d11]   grayaf32 => 2 planes 1x1 32/0 [r32f/r32f] (r/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv444pf => 3 planes 1x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva444pf => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv420pf => 3 planes 2x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva420pf => 4 planes 2x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv422pf => 3 planes 2x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva422pf => 4 planes 2x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv440pf => 3 planes 1x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva440pf => 4 planes 1x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv410pf => 3 planes 4x4 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva410pf => 4 planes 4x4 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   yuv411pf => 3 planes 4x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   3.430][d][vo/gpu/d3d11]   yuva411pf => 4 planes 4x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   3.430][d][vo/gpu/d3d11]   rgb30
+[   3.430][d][vo/gpu/d3d11]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   3.430][d][vo/gpu/d3d11]   vdpau_output
+[   3.430][d][vo/gpu/d3d11]   vaapi
+[   3.430][d][vo/gpu/d3d11]   videotoolbox
+[   3.430][d][vo/gpu/d3d11]   drm_prime
+[   3.430][d][vo/gpu/d3d11]   yuyv422
+[   3.430][d][vo/gpu/d3d11]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   monow
+[   3.430][d][vo/gpu/d3d11]   monob
+[   3.430][d][vo/gpu/d3d11]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   uyyvyy411
+[   3.430][d][vo/gpu/d3d11]   bgr8
+[   3.430][d][vo/gpu/d3d11]   bgr4
+[   3.430][d][vo/gpu/d3d11]   bgr4_byte
+[   3.430][d][vo/gpu/d3d11]   rgb8
+[   3.430][d][vo/gpu/d3d11]   rgb4
+[   3.430][d][vo/gpu/d3d11]   rgb4_byte
+[   3.430][d][vo/gpu/d3d11]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   3.430][d][vo/gpu/d3d11]   gray16be
+[   3.430][d][vo/gpu/d3d11]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   3.430][d][vo/gpu/d3d11]   rgb48be
+[   3.430][d][vo/gpu/d3d11]   rgb48
+[   3.430][d][vo/gpu/d3d11]   rgb565be
+[   3.430][d][vo/gpu/d3d11]   rgb555be
+[   3.430][d][vo/gpu/d3d11]   rgb555
+[   3.430][d][vo/gpu/d3d11]   bgr565be
+[   3.430][d][vo/gpu/d3d11]   bgr565
+[   3.430][d][vo/gpu/d3d11]   bgr555be
+[   3.430][d][vo/gpu/d3d11]   bgr555
+[   3.430][d][vo/gpu/d3d11]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv420p16be
+[   3.430][d][vo/gpu/d3d11]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv422p16be
+[   3.430][d][vo/gpu/d3d11]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   3.430][d][vo/gpu/d3d11]   yuv444p16be
+[   3.430][d][vo/gpu/d3d11]   rgb444
+[   3.430][d][vo/gpu/d3d11]   rgb444be
+[   3.430][d][vo/gpu/d3d11]   bgr444
+[   3.430][d][vo/gpu/d3d11]   bgr444be
+[   3.430][d][vo/gpu/d3d11]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   3.430][d][vo/gpu/d3d11]   bgr48be
+[   3.430][d][vo/gpu/d3d11]   bgr48
+[   3.431][d][vo/gpu/d3d11]   yuv420p9be
+[   3.431][d][vo/gpu/d3d11]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv420p10be
+[   3.431][d][vo/gpu/d3d11]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv422p10be
+[   3.431][d][vo/gpu/d3d11]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv444p9be
+[   3.431][d][vo/gpu/d3d11]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv444p10be
+[   3.431][d][vo/gpu/d3d11]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv422p9be
+[   3.431][d][vo/gpu/d3d11]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp9be
+[   3.431][d][vo/gpu/d3d11]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp10be
+[   3.431][d][vo/gpu/d3d11]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp16be
+[   3.431][d][vo/gpu/d3d11]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva420p9be
+[   3.431][d][vo/gpu/d3d11]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva422p9be
+[   3.431][d][vo/gpu/d3d11]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva444p9be
+[   3.431][d][vo/gpu/d3d11]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva420p10be
+[   3.431][d][vo/gpu/d3d11]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva422p10be
+[   3.431][d][vo/gpu/d3d11]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva444p10be
+[   3.431][d][vo/gpu/d3d11]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva420p16be
+[   3.431][d][vo/gpu/d3d11]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva422p16be
+[   3.431][d][vo/gpu/d3d11]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva444p16be
+[   3.431][d][vo/gpu/d3d11]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   xyz12
+[   3.431][d][vo/gpu/d3d11]   xyz12be
+[   3.431][d][vo/gpu/d3d11]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   nv20be
+[   3.431][d][vo/gpu/d3d11]   rgba64be
+[   3.431][d][vo/gpu/d3d11]   bgra64be
+[   3.431][d][vo/gpu/d3d11]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yvyu422
+[   3.431][d][vo/gpu/d3d11]   ya16be
+[   3.431][d][vo/gpu/d3d11]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrap16be
+[   3.431][d][vo/gpu/d3d11]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   qsv
+[   3.431][d][vo/gpu/d3d11]   d3d11va_vld
+[   3.431][d][vo/gpu/d3d11]   yuv420p12be
+[   3.431][d][vo/gpu/d3d11]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv420p14be
+[   3.431][d][vo/gpu/d3d11]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv422p12be
+[   3.431][d][vo/gpu/d3d11]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv422p14be
+[   3.431][d][vo/gpu/d3d11]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv444p12be
+[   3.431][d][vo/gpu/d3d11]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv444p14be
+[   3.431][d][vo/gpu/d3d11]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp12be
+[   3.431][d][vo/gpu/d3d11]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrp14be
+[   3.431][d][vo/gpu/d3d11]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   bayer_bggr8
+[   3.431][d][vo/gpu/d3d11]   bayer_rggb8
+[   3.431][d][vo/gpu/d3d11]   bayer_gbrg8
+[   3.431][d][vo/gpu/d3d11]   bayer_grbg8
+[   3.431][d][vo/gpu/d3d11]   bayer_bggr16
+[   3.431][d][vo/gpu/d3d11]   bayer_bggr16be
+[   3.431][d][vo/gpu/d3d11]   bayer_rggb16
+[   3.431][d][vo/gpu/d3d11]   bayer_rggb16be
+[   3.431][d][vo/gpu/d3d11]   bayer_gbrg16
+[   3.431][d][vo/gpu/d3d11]   bayer_gbrg16be
+[   3.431][d][vo/gpu/d3d11]   bayer_grbg16
+[   3.431][d][vo/gpu/d3d11]   bayer_grbg16be
+[   3.431][d][vo/gpu/d3d11]   xvmc
+[   3.431][d][vo/gpu/d3d11]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv440p10be
+[   3.431][d][vo/gpu/d3d11]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuv440p12be
+[   3.431][d][vo/gpu/d3d11]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   ayuv64be
+[   3.431][d][vo/gpu/d3d11]   p010be
+[   3.431][d][vo/gpu/d3d11]   gbrap12be
+[   3.431][d][vo/gpu/d3d11]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrap10be
+[   3.431][d][vo/gpu/d3d11]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gray12be
+[   3.431][d][vo/gpu/d3d11]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gray10be
+[   3.431][d][vo/gpu/d3d11]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p016be
+[   3.431][d][vo/gpu/d3d11]   gray9be
+[   3.431][d][vo/gpu/d3d11]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   gbrpf32be
+[   3.431][d][vo/gpu/d3d11]   gbrpf32 => 3 planes 1x1 32/0 [r32f/r32f/r32f] (g/b/r) [float]
+[   3.431][d][vo/gpu/d3d11]   gbrapf32be
+[   3.431][d][vo/gpu/d3d11]   gbrapf32 => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (g/b/r/a) [float]
+[   3.431][d][vo/gpu/d3d11]   opencl
+[   3.431][d][vo/gpu/d3d11]   gray14be
+[   3.431][d][vo/gpu/d3d11]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   3.431][d][vo/gpu/d3d11]   grayf32be
+[   3.431][d][vo/gpu/d3d11]   grayf32 => 1 planes 1x1 32/0 [r32f] (r) [float]
+[   3.431][d][vo/gpu/d3d11]   yuva422p12be
+[   3.431][d][vo/gpu/d3d11]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   yuva444p12be
+[   3.431][d][vo/gpu/d3d11]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   3.431][d][vo/gpu/d3d11]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   3.431][d][vo/gpu/d3d11]   vulkan
+[   3.431][d][vo/gpu/d3d11]   y210be
+[   3.431][d][vo/gpu/d3d11]   y210
+[   3.431][d][vo/gpu/d3d11]   x2rgb10be
+[   3.431][d][vo/gpu/d3d11]   x2bgr10
+[   3.431][d][vo/gpu/d3d11]   x2bgr10be
+[   3.431][d][vo/gpu/d3d11]   p210be
+[   3.431][d][vo/gpu/d3d11]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p410be
+[   3.431][d][vo/gpu/d3d11]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p216be
+[   3.431][d][vo/gpu/d3d11]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p416be
+[   3.431][d][vo/gpu/d3d11]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   vuya => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   3.431][d][vo/gpu/d3d11]   rgbaf16be
+[   3.431][d][vo/gpu/d3d11]   rgbaf16 => 1 planes 1x1 16/0 [rgba16hf] (rgba) [float]
+[   3.431][d][vo/gpu/d3d11]   vuyx => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p012 => 2 planes 2x2 16/4 [r16/rg16] (r/gb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   p012be
+[   3.431][d][vo/gpu/d3d11]   y212be
+[   3.431][d][vo/gpu/d3d11]   y212
+[   3.431][d][vo/gpu/d3d11]   xv30be
+[   3.431][d][vo/gpu/d3d11]   xv30
+[   3.431][d][vo/gpu/d3d11]   xv36be
+[   3.431][d][vo/gpu/d3d11]   xv36 => 1 planes 1x1 16/4 [rgba16] (grb) [unorm]
+[   3.431][d][vo/gpu/d3d11]   rgbf32be
+[   3.431][d][vo/gpu/d3d11]   rgbf32
+[   3.431][d][vo/gpu/d3d11]   rgbaf32be
+[   3.431][d][vo/gpu/d3d11]   rgbaf32
+[   3.431][v][vo/gpu] Testing FBO format rgba16hf
+[   3.431][d][vo/gpu] Resizing texture: 16x16
+[   3.431][v][vo/gpu] Using FBO format rgba16hf.
+[   3.431][d][global] cache path: '' -> '-'
+[   3.437][v][vo/gpu] Resize: 944x463
+[   3.437][v][vo/gpu] Reported display depth: 8
+[   3.437][v][vo/gpu] Assuming 144.001000 FPS for display sync.
+[   3.437][v][vd] Container reported FPS: 119.997467
+[   3.437][v][vd] Codec list:
+[   3.437][v][vd]     h264 - (null)
+[   3.437][v][vd]     h264_qsv (h264) - (null)
+[   3.437][v][vd]     h264_cuvid (h264) - (null)
+[   3.437][v][vd] Opening decoder h264
+[   3.437][v][vd] No hardware decoding requested.
+[   3.437][v][vd] Using software decoding.
+[   3.437][v][vd] Detected 16 logical cores.
+[   3.437][v][vd] Requesting 16 threads for decoding.
+[   3.441][v][vd] Selected codec: h264 ((null))
+[   3.441][v][vf] User filter list:
+[   3.441][v][vf]   (empty)
+[   3.441][v][ad] Codec list:
+[   3.441][v][ad]     aac - (null)
+[   3.441][v][ad]     aac_fixed (aac) - (null)
+[   3.441][v][ad] Opening decoder aac
+[   3.441][v][ad] Requesting 1 threads for decoding.
+[   3.442][v][ad] Selected codec: aac ((null))
+[   3.442][v][af] User filter list:
+[   3.442][v][af]   (empty)
+[   3.442][v][cplayer] Starting playback...
+[   3.442][v][file] stream level seek from 6047378488 to 40
+[   3.443][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: yuv420p
+[   3.443][d][vd] DR parameter change to 1920x1090 yuv420p align=64
+[   3.443][d][vd] Allocating new (host-cached) DR image...
+[   3.443][d][vd] ...failed..
+[   3.443][v][vd] DR failed - disabling.
+[   3.463][v][vd] Using software decoding.
+[   3.464][v][vd] Decoder format: 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][vd] Using container aspect ratio.
+[   3.464][v][vf] [in] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][vf] [userdeint] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][vf] [userdeint] (disabled)
+[   3.464][v][vf] [autorotate] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][vf] [autorotate] (disabled)
+[   3.464][v][vf] [convert] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][vf] [convert] (disabled)
+[   3.464][v][vf] [out] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.464][v][af] [in] 48000Hz stereo 2ch floatp
+[   3.464][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   3.464][v][af] [userspeed] (disabled)
+[   3.464][v][af] [convert] 48000Hz stereo 2ch floatp
+[   3.464][v][ao] Trying audio driver 'wasapi'
+[   3.464][v][ao/wasapi] requested format: 48000 Hz, stereo channels, floatp
+[   3.464][d][ao/wasapi] Init wasapi
+[   3.464][d][ao/wasapi] Find device ''
+[   3.465][v][ao/wasapi] No device specified. Selecting default.
+[   3.467][v][ao/wasapi] Selecting device '{8dd3e326-1169-4760-b1bc-571ccca42b34}' (Speakers (USB Audio Device))
+[   3.467][v][ao/wasapi] Monitoring changes in device {0.0.0.00000000}.{8dd3e326-1169-4760-b1bc-571ccca42b34}
+[   3.469][d][ao/wasapi] Init wasapi thread
+[   3.470][d][ao/wasapi] Activating pAudioClient interface
+[   3.471][d][ao/wasapi] Probing formats
+[   3.477][v][ao/wasapi] Trying stereo float (32/32 bits) @ 48000hz (shared) -> ok
+[   3.478][v][ao/wasapi] Accepted as stereo float @ 48000hz -> stereo float (32/32 bits) @ 48000hz (shared)
+[   3.478][d][ao/wasapi] Fixing format
+[   3.478][d][ao/wasapi] IAudioClient::GetDevicePeriod
+[   3.479][v][ao/wasapi] Device period: 10 ms
+[   3.479][d][ao/wasapi] IAudioClient::Initialize
+[   3.498][d][ao/wasapi] IAudioClient::Initialize pRenderClient
+[   3.498][d][ao/wasapi] IAudioClient::Initialize IAudioClient_SetEventHandle
+[   3.498][d][ao/wasapi] IAudioClient::Initialize IAudioClient_GetBufferSize
+[   3.498][v][ao/wasapi] Buffer frame count: 2400 (50 ms)
+[   3.498][v][ao/wasapi] IAudioClock::GetFrequency gave a frequency of 384000.
+[   3.499][d][ao/wasapi] IAudioClient::Initialize pAudioVolume
+[   3.499][d][ao/wasapi] Entering dispatch loop
+[   3.499][d][ao/wasapi] Init wasapi done
+[   3.499][v][ao/wasapi] device buffer: 2400 samples.
+[   3.499][v][ao/wasapi] using soft-buffer of 9600 samples.
+[   3.499][i][cplayer] AO: [wasapi] 48000Hz stereo 2ch float
+[   3.499][v][cplayer] AO: Description: Windows WASAPI audio output (event mode)
+[   3.499][v][autoconvert] inserting resampler
+[   3.499][v][swresample] format change, reinitializing resampler
+[   3.499][v][swresample] 48000Hz stereo floatp -> 48000Hz stereo float
+[   3.499][v][af] [out] 48000Hz stereo 2ch float
+[   3.499][i][cplayer] VO: [gpu] 1920x1080 yuv420p
+[   3.499][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   3.499][v][vo/gpu] reconfig to 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/display SP=1.000000 CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   3.499][d][vo/gpu] max content size: 1920x1032
+[   3.499][d][vo/gpu] monitor size: 1920x1080
+[   3.502][v][vo/gpu] Resize: 944x463
+[   3.502][v][vo/gpu] Window size: 944x463 (Borders: l=0 t=0 r=0 b=0)
+[   3.502][v][vo/gpu] Video source: 1920x1080 (1:1)
+[   3.502][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (60, 0) 823x463
+[   3.502][v][vo/gpu] Video scale: 0.428646/0.428704
+[   3.502][v][vo/gpu] OSD borders: l=60 t=0 r=61 b=0
+[   3.502][v][vo/gpu] Video borders: l=60 t=0 r=61 b=0
+[   3.502][v][vo/gpu] Reported display depth: 8
+[   3.502][v][vo/gpu] Texture for plane 0: 1920x1080
+[   3.502][v][vo/gpu] Texture for plane 1: 960x540
+[   3.503][v][vo/gpu] Texture for plane 2: 960x540
+[   3.503][v][vo/gpu] Testing FBO format rgba16hf
+[   3.503][d][vo/gpu] Resizing texture: 16x16
+[   3.503][v][vo/gpu] Using FBO format rgba16hf.
+[   3.504][d][vo/gpu] Resizing texture: 960x540
+[   3.581][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.583][v][vo/gpu/d3d11] Compiled a vertex shader in 78534us
+[   3.583][v][vo/gpu/d3d11] shaderc: 76462us, SPIRV-Cross: 591us, D3DCompile: 1481us
+[   3.583][d][vo/gpu/d3d11] GLSL source:
+[   3.583][d][vo/gpu/d3d11] [  1] #version 450
+[   3.583][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.583][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.583][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.583][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.583][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.583][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.583][d][vo/gpu/d3d11] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   3.583][d][vo/gpu/d3d11] [  9] layout(location=2) out vec2 texcoord1;
+[   3.583][d][vo/gpu/d3d11] [ 10] void main() {
+[   3.583][d][vo/gpu/d3d11] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.583][d][vo/gpu/d3d11] [ 12] texcoord0 = vertex_texcoord0;
+[   3.583][d][vo/gpu/d3d11] [ 13] texcoord1 = vertex_texcoord1;
+[   3.583][d][vo/gpu/d3d11] [ 14] }
+[   3.583][d][vo/gpu/d3d11] HLSL source:
+[   3.583][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.583][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.583][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.583][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.583][d][vo/gpu/d3d11] [  5] static float2 _30;
+[   3.583][d][vo/gpu/d3d11] [  6] static float2 _31;
+[   3.583][d][vo/gpu/d3d11] [  7] 
+[   3.583][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   3.584][d][vo/gpu/d3d11] [  9] {
+[   3.584][d][vo/gpu/d3d11] [ 10]     float2 _18 : TEXCOORD0;
+[   3.584][d][vo/gpu/d3d11] [ 11]     float2 _28 : TEXCOORD1;
+[   3.584][d][vo/gpu/d3d11] [ 12]     float2 _31 : TEXCOORD2;
+[   3.584][d][vo/gpu/d3d11] [ 13] };
+[   3.584][d][vo/gpu/d3d11] [ 14] 
+[   3.584][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Output
+[   3.584][d][vo/gpu/d3d11] [ 16] {
+[   3.584][d][vo/gpu/d3d11] [ 17]     float2 _27 : TEXCOORD1;
+[   3.584][d][vo/gpu/d3d11] [ 18]     float2 _30 : TEXCOORD2;
+[   3.584][d][vo/gpu/d3d11] [ 19]     float4 gl_Position : SV_Position;
+[   3.584][d][vo/gpu/d3d11] [ 20] };
+[   3.584][d][vo/gpu/d3d11] [ 21] 
+[   3.584][d][vo/gpu/d3d11] [ 22] void vert_main()
+[   3.584][d][vo/gpu/d3d11] [ 23] {
+[   3.584][d][vo/gpu/d3d11] [ 24]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.584][d][vo/gpu/d3d11] [ 25]     _27 = _28;
+[   3.584][d][vo/gpu/d3d11] [ 26]     _30 = _31;
+[   3.584][d][vo/gpu/d3d11] [ 27]     gl_Position.y = -gl_Position.y;
+[   3.584][d][vo/gpu/d3d11] [ 28] }
+[   3.584][d][vo/gpu/d3d11] [ 29] 
+[   3.584][d][vo/gpu/d3d11] [ 30] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.584][d][vo/gpu/d3d11] [ 31] {
+[   3.584][d][vo/gpu/d3d11] [ 32]     _18 = stage_input._18;
+[   3.584][d][vo/gpu/d3d11] [ 33]     _28 = stage_input._28;
+[   3.584][d][vo/gpu/d3d11] [ 34]     _31 = stage_input._31;
+[   3.584][d][vo/gpu/d3d11] [ 35]     vert_main();
+[   3.584][d][vo/gpu/d3d11] [ 36]     SPIRV_Cross_Output stage_output;
+[   3.584][d][vo/gpu/d3d11] [ 37]     stage_output.gl_Position = gl_Position;
+[   3.584][d][vo/gpu/d3d11] [ 38]     stage_output._27 = _27;
+[   3.584][d][vo/gpu/d3d11] [ 39]     stage_output._30 = _30;
+[   3.584][d][vo/gpu/d3d11] [ 40]     return stage_output;
+[   3.584][d][vo/gpu/d3d11] [ 41] }
+[   3.585][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.587][v][vo/gpu/d3d11] Compiled a fragment shader in 3527us
+[   3.587][v][vo/gpu/d3d11] shaderc: 1851us, SPIRV-Cross: 122us, D3DCompile: 1554us
+[   3.587][d][vo/gpu/d3d11] GLSL source:
+[   3.587][d][vo/gpu/d3d11] [  1] #version 450
+[   3.587][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.587][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.587][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.587][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.587][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.587][d][vo/gpu/d3d11] [  7] layout(location=2) in vec2 texcoord1;
+[   3.587][d][vo/gpu/d3d11] [  8] layout(std140, binding=0) uniform UBO {
+[   3.587][d][vo/gpu/d3d11] [  9] layout(offset=0) vec2 texture_size0;
+[   3.587][d][vo/gpu/d3d11] [ 10] layout(offset=16) mat2 texture_rot0;
+[   3.587][d][vo/gpu/d3d11] [ 11] layout(offset=48) vec2 texture_off0;
+[   3.587][d][vo/gpu/d3d11] [ 12] layout(offset=56) vec2 pixel_size0;
+[   3.587][d][vo/gpu/d3d11] [ 13] layout(offset=64) vec2 texture_size1;
+[   3.587][d][vo/gpu/d3d11] [ 14] layout(offset=80) mat2 texture_rot1;
+[   3.587][d][vo/gpu/d3d11] [ 15] layout(offset=112) vec2 texture_off1;
+[   3.587][d][vo/gpu/d3d11] [ 16] layout(offset=120) vec2 pixel_size1;
+[   3.587][d][vo/gpu/d3d11] [ 17] };
+[   3.587][d][vo/gpu/d3d11] [ 18] layout(binding=0) uniform sampler2D texture0;
+[   3.587][d][vo/gpu/d3d11] [ 19] layout(binding=1) uniform sampler2D texture1;
+[   3.587][d][vo/gpu/d3d11] [ 20] void main() {
+[   3.587][d][vo/gpu/d3d11] [ 21] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.587][d][vo/gpu/d3d11] [ 22] // merging plane 1 ...
+[   3.587][d][vo/gpu/d3d11] [ 23] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   3.587][d][vo/gpu/d3d11] [ 24] // merging plane 2 ... into 1
+[   3.587][d][vo/gpu/d3d11] [ 25] color.g = 1.000000 * vec4(texture(texture1, texcoord1)).r;
+[   3.587][d][vo/gpu/d3d11] [ 26] out_color = color;
+[   3.587][d][vo/gpu/d3d11] [ 27] }
+[   3.587][d][vo/gpu/d3d11] HLSL source:
+[   3.587][d][vo/gpu/d3d11] [  1] Texture2D<float4> _16 : register(t0);
+[   3.587][d][vo/gpu/d3d11] [  2] SamplerState __16_sampler : register(s0);
+[   3.587][d][vo/gpu/d3d11] [  3] Texture2D<float4> _34 : register(t1);
+[   3.587][d][vo/gpu/d3d11] [  4] SamplerState __34_sampler : register(s1);
+[   3.587][d][vo/gpu/d3d11] [  5] 
+[   3.587][d][vo/gpu/d3d11] [  6] static float2 _20;
+[   3.587][d][vo/gpu/d3d11] [  7] static float2 _36;
+[   3.587][d][vo/gpu/d3d11] [  8] static float4 _49;
+[   3.587][d][vo/gpu/d3d11] [  9] 
+[   3.587][d][vo/gpu/d3d11] [ 10] struct SPIRV_Cross_Input
+[   3.587][d][vo/gpu/d3d11] [ 11] {
+[   3.587][d][vo/gpu/d3d11] [ 12]     float2 _20 : TEXCOORD1;
+[   3.587][d][vo/gpu/d3d11] [ 13]     float2 _36 : TEXCOORD2;
+[   3.587][d][vo/gpu/d3d11] [ 14] };
+[   3.587][d][vo/gpu/d3d11] [ 15] 
+[   3.587][d][vo/gpu/d3d11] [ 16] struct SPIRV_Cross_Output
+[   3.587][d][vo/gpu/d3d11] [ 17] {
+[   3.587][d][vo/gpu/d3d11] [ 18]     float4 _49 : SV_Target0;
+[   3.587][d][vo/gpu/d3d11] [ 19] };
+[   3.587][d][vo/gpu/d3d11] [ 20] 
+[   3.587][d][vo/gpu/d3d11] [ 21] void frag_main()
+[   3.587][d][vo/gpu/d3d11] [ 22] {
+[   3.587][d][vo/gpu/d3d11] [ 23]     float4 _56 = float4(0.0f, 0.0f, 0.0f, 1.0f);
+[   3.587][d][vo/gpu/d3d11] [ 24]     _56.x = _16.Sample(__16_sampler, _20).x;
+[   3.587][d][vo/gpu/d3d11] [ 25]     _56.y = _34.Sample(__34_sampler, _36).x;
+[   3.587][d][vo/gpu/d3d11] [ 26]     _49 = _56;
+[   3.587][d][vo/gpu/d3d11] [ 27] }
+[   3.587][d][vo/gpu/d3d11] [ 28] 
+[   3.587][d][vo/gpu/d3d11] [ 29] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.587][d][vo/gpu/d3d11] [ 30] {
+[   3.587][d][vo/gpu/d3d11] [ 31]     _20 = stage_input._20;
+[   3.587][d][vo/gpu/d3d11] [ 32]     _36 = stage_input._36;
+[   3.587][d][vo/gpu/d3d11] [ 33]     frag_main();
+[   3.587][d][vo/gpu/d3d11] [ 34]     SPIRV_Cross_Output stage_output;
+[   3.587][d][vo/gpu/d3d11] [ 35]     stage_output._49 = _49;
+[   3.587][d][vo/gpu/d3d11] [ 36]     return stage_output;
+[   3.587][d][vo/gpu/d3d11] [ 37] }
+[   3.588][d][vo/gpu] Resizing texture: 960x1080
+[   3.590][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.591][v][vo/gpu/d3d11] Compiled a vertex shader in 2996us
+[   3.591][v][vo/gpu/d3d11] shaderc: 1673us, SPIRV-Cross: 97us, D3DCompile: 1226us
+[   3.591][d][vo/gpu/d3d11] GLSL source:
+[   3.591][d][vo/gpu/d3d11] [  1] #version 450
+[   3.591][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.591][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.591][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.591][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.591][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.591][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.591][d][vo/gpu/d3d11] [  8] void main() {
+[   3.591][d][vo/gpu/d3d11] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.591][d][vo/gpu/d3d11] [ 10] texcoord0 = vertex_texcoord0;
+[   3.591][d][vo/gpu/d3d11] [ 11] }
+[   3.591][d][vo/gpu/d3d11] HLSL source:
+[   3.591][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.591][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.591][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.591][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.591][d][vo/gpu/d3d11] [  5] 
+[   3.591][d][vo/gpu/d3d11] [  6] struct SPIRV_Cross_Input
+[   3.591][d][vo/gpu/d3d11] [  7] {
+[   3.591][d][vo/gpu/d3d11] [  8]     float2 _18 : TEXCOORD0;
+[   3.591][d][vo/gpu/d3d11] [  9]     float2 _28 : TEXCOORD1;
+[   3.591][d][vo/gpu/d3d11] [ 10] };
+[   3.591][d][vo/gpu/d3d11] [ 11] 
+[   3.591][d][vo/gpu/d3d11] [ 12] struct SPIRV_Cross_Output
+[   3.591][d][vo/gpu/d3d11] [ 13] {
+[   3.591][d][vo/gpu/d3d11] [ 14]     float2 _27 : TEXCOORD1;
+[   3.591][d][vo/gpu/d3d11] [ 15]     float4 gl_Position : SV_Position;
+[   3.591][d][vo/gpu/d3d11] [ 16] };
+[   3.591][d][vo/gpu/d3d11] [ 17] 
+[   3.591][d][vo/gpu/d3d11] [ 18] void vert_main()
+[   3.591][d][vo/gpu/d3d11] [ 19] {
+[   3.591][d][vo/gpu/d3d11] [ 20]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.591][d][vo/gpu/d3d11] [ 21]     _27 = _28;
+[   3.591][d][vo/gpu/d3d11] [ 22]     gl_Position.y = -gl_Position.y;
+[   3.591][d][vo/gpu/d3d11] [ 23] }
+[   3.591][d][vo/gpu/d3d11] [ 24] 
+[   3.591][d][vo/gpu/d3d11] [ 25] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.591][d][vo/gpu/d3d11] [ 26] {
+[   3.591][d][vo/gpu/d3d11] [ 27]     _18 = stage_input._18;
+[   3.591][d][vo/gpu/d3d11] [ 28]     _28 = stage_input._28;
+[   3.591][d][vo/gpu/d3d11] [ 29]     vert_main();
+[   3.591][d][vo/gpu/d3d11] [ 30]     SPIRV_Cross_Output stage_output;
+[   3.591][d][vo/gpu/d3d11] [ 31]     stage_output.gl_Position = gl_Position;
+[   3.591][d][vo/gpu/d3d11] [ 32]     stage_output._27 = _27;
+[   3.591][d][vo/gpu/d3d11] [ 33]     return stage_output;
+[   3.591][d][vo/gpu/d3d11] [ 34] }
+[   3.594][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.601][v][vo/gpu/d3d11] Compiled a fragment shader in 9427us
+[   3.601][v][vo/gpu/d3d11] shaderc: 3206us, SPIRV-Cross: 305us, D3DCompile: 5916us
+[   3.601][d][vo/gpu/d3d11] GLSL source:
+[   3.601][d][vo/gpu/d3d11] [  1] #version 450
+[   3.601][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.601][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.601][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.601][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.601][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.601][d][vo/gpu/d3d11] [  7] layout(std140, binding=0) uniform UBO {
+[   3.601][d][vo/gpu/d3d11] [  8] layout(offset=0) vec2 texture_size0;
+[   3.601][d][vo/gpu/d3d11] [  9] layout(offset=16) mat2 texture_rot0;
+[   3.601][d][vo/gpu/d3d11] [ 10] layout(offset=48) vec2 texture_off0;
+[   3.601][d][vo/gpu/d3d11] [ 11] layout(offset=56) vec2 pixel_size0;
+[   3.601][d][vo/gpu/d3d11] [ 12] };
+[   3.601][d][vo/gpu/d3d11] [ 13] layout(binding=0) uniform sampler2D lut;
+[   3.601][d][vo/gpu/d3d11] [ 14] layout(binding=1) uniform sampler2D texture0;
+[   3.601][d][vo/gpu/d3d11] [ 15] void main() {
+[   3.601][d][vo/gpu/d3d11] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.601][d][vo/gpu/d3d11] [ 17] // upscaling plane 1
+[   3.601][d][vo/gpu/d3d11] [ 18] #undef tex
+[   3.601][d][vo/gpu/d3d11] [ 19] #undef texmap
+[   3.601][d][vo/gpu/d3d11] [ 20] #define tex texture0
+[   3.601][d][vo/gpu/d3d11] [ 21] #define texmap texmap0
+[   3.601][d][vo/gpu/d3d11] [ 22] vec2 pos = texcoord0;
+[   3.601][d][vo/gpu/d3d11] [ 23] vec2 size = texture_size0;
+[   3.601][d][vo/gpu/d3d11] [ 24] vec2 pt = pixel_size0;
+[   3.601][d][vo/gpu/d3d11] [ 25] // first pass
+[   3.601][d][vo/gpu/d3d11] [ 26] color = vec4(0.0);
+[   3.601][d][vo/gpu/d3d11] [ 27] {
+[   3.601][d][vo/gpu/d3d11] [ 28] vec2 dir = vec2(0.0, 1.0);
+[   3.601][d][vo/gpu/d3d11] [ 29] pt *= dir;
+[   3.601][d][vo/gpu/d3d11] [ 30] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   3.601][d][vo/gpu/d3d11] [ 31] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   3.601][d][vo/gpu/d3d11] [ 32] vec4 c;
+[   3.601][d][vo/gpu/d3d11] [ 33] float ypos = LUT_POS(fcoord, 64.0);
+[   3.601][d][vo/gpu/d3d11] [ 34] float weights[6];
+[   3.601][d][vo/gpu/d3d11] [ 35] c = texture(lut, vec2(0.250000, ypos));
+[   3.601][d][vo/gpu/d3d11] [ 36] weights[0] = c[0];
+[   3.601][d][vo/gpu/d3d11] [ 37] weights[1] = c[1];
+[   3.601][d][vo/gpu/d3d11] [ 38] weights[2] = c[2];
+[   3.601][d][vo/gpu/d3d11] [ 39] weights[3] = c[3];
+[   3.601][d][vo/gpu/d3d11] [ 40] c = texture(lut, vec2(0.750000, ypos));
+[   3.601][d][vo/gpu/d3d11] [ 41] weights[4] = c[0];
+[   3.601][d][vo/gpu/d3d11] [ 42] weights[5] = c[1];
+[   3.601][d][vo/gpu/d3d11] [ 43] // scaler samples
+[   3.601][d][vo/gpu/d3d11] [ 44] c = texture(tex, base + pt * vec2(0.0));
+[   3.601][d][vo/gpu/d3d11] [ 45] color += vec4(weights[0]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 46] c = texture(tex, base + pt * vec2(1.0));
+[   3.601][d][vo/gpu/d3d11] [ 47] color += vec4(weights[1]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 48] c = texture(tex, base + pt * vec2(2.0));
+[   3.601][d][vo/gpu/d3d11] [ 49] color += vec4(weights[2]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 50] c = texture(tex, base + pt * vec2(3.0));
+[   3.601][d][vo/gpu/d3d11] [ 51] color += vec4(weights[3]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 52] c = texture(tex, base + pt * vec2(4.0));
+[   3.601][d][vo/gpu/d3d11] [ 53] color += vec4(weights[4]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 54] c = texture(tex, base + pt * vec2(5.0));
+[   3.601][d][vo/gpu/d3d11] [ 55] color += vec4(weights[5]) * c;
+[   3.601][d][vo/gpu/d3d11] [ 56] }
+[   3.601][d][vo/gpu/d3d11] [ 57] color *= 1.000000;
+[   3.601][d][vo/gpu/d3d11] [ 58] out_color = color;
+[   3.601][d][vo/gpu/d3d11] [ 59] }
+[   3.601][d][vo/gpu/d3d11] HLSL source:
+[   3.601][d][vo/gpu/d3d11] [  1] cbuffer _21_23 : register(b0)
+[   3.601][d][vo/gpu/d3d11] [  2] {
+[   3.601][d][vo/gpu/d3d11] [  3]     float2 _23_m0 : packoffset(c0);
+[   3.601][d][vo/gpu/d3d11] [  4]     row_major float2x2 _23_m1 : packoffset(c1);
+[   3.601][d][vo/gpu/d3d11] [  5]     float2 _23_m2 : packoffset(c3);
+[   3.601][d][vo/gpu/d3d11] [  6]     float2 _23_m3 : packoffset(c3.z);
+[   3.601][d][vo/gpu/d3d11] [  7] };
+[   3.601][d][vo/gpu/d3d11] [  8] 
+[   3.601][d][vo/gpu/d3d11] [  9] Texture2D<float4> _70 : register(t0);
+[   3.601][d][vo/gpu/d3d11] [ 10] SamplerState __70_sampler : register(s0);
+[   3.601][d][vo/gpu/d3d11] [ 11] Texture2D<float4> _112 : register(t1);
+[   3.601][d][vo/gpu/d3d11] [ 12] SamplerState __112_sampler : register(s1);
+[   3.601][d][vo/gpu/d3d11] [ 13] 
+[   3.601][d][vo/gpu/d3d11] [ 14] static float2 _17;
+[   3.601][d][vo/gpu/d3d11] [ 15] static float4 _202;
+[   3.601][d][vo/gpu/d3d11] [ 16] 
+[   3.601][d][vo/gpu/d3d11] [ 17] struct SPIRV_Cross_Input
+[   3.601][d][vo/gpu/d3d11] [ 18] {
+[   3.601][d][vo/gpu/d3d11] [ 19]     float2 _17 : TEXCOORD1;
+[   3.601][d][vo/gpu/d3d11] [ 20] };
+[   3.601][d][vo/gpu/d3d11] [ 21] 
+[   3.601][d][vo/gpu/d3d11] [ 22] struct SPIRV_Cross_Output
+[   3.601][d][vo/gpu/d3d11] [ 23] {
+[   3.601][d][vo/gpu/d3d11] [ 24]     float4 _202 : SV_Target0;
+[   3.601][d][vo/gpu/d3d11] [ 25] };
+[   3.601][d][vo/gpu/d3d11] [ 26] 
+[   3.601][d][vo/gpu/d3d11] [ 27] void frag_main()
+[   3.601][d][vo/gpu/d3d11] [ 28] {
+[   3.601][d][vo/gpu/d3d11] [ 29]     float2 _47 = frac(mad(_17, _23_m0, (-0.5f).xx));
+[   3.601][d][vo/gpu/d3d11] [ 30]     float _49 = _47.y;
+[   3.601][d][vo/gpu/d3d11] [ 31]     float2 _60 = mad(-_23_m3, float2(0.0f, 2.0f), _17 - ((_23_m3 * float2(0.0f, 1.0f)) * _49));
+[   3.601][d][vo/gpu/d3d11] [ 32]     float _65 = lerp(0.0078125f, 0.9921875f, _49);
+[   3.601][d][vo/gpu/d3d11] [ 33]     float4 _75 = _70.Sample(__70_sampler, float2(0.25f, _65));
+[   3.601][d][vo/gpu/d3d11] [ 34]     float4 _103 = _70.Sample(__70_sampler, float2(0.75f, _65));
+[   3.601][d][vo/gpu/d3d11] [ 35]     _202 = mad(_103.y.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 5.0f), _60)), mad(_103.x.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 4.0f), _60)), mad(_75.w.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 3.0f), _60)), mad(_75.z.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 2.0f), _60)), mad(_75.x.xxxx, _112.Sample(__112_sampler, _60), _75.y.xxxx * _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 1.0f), _60))))))) * 1.0f;
+[   3.601][d][vo/gpu/d3d11] [ 36] }
+[   3.601][d][vo/gpu/d3d11] [ 37] 
+[   3.601][d][vo/gpu/d3d11] [ 38] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.601][d][vo/gpu/d3d11] [ 39] {
+[   3.601][d][vo/gpu/d3d11] [ 40]     _17 = stage_input._17;
+[   3.601][d][vo/gpu/d3d11] [ 41]     frag_main();
+[   3.601][d][vo/gpu/d3d11] [ 42]     SPIRV_Cross_Output stage_output;
+[   3.601][d][vo/gpu/d3d11] [ 43]     stage_output._202 = _202;
+[   3.601][d][vo/gpu/d3d11] [ 44]     return stage_output;
+[   3.601][d][vo/gpu/d3d11] [ 45] }
+[   3.601][d][vo/gpu] Resizing texture: 1920x1080
+[   3.603][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.604][v][vo/gpu/d3d11] Compiled a vertex shader in 2743us
+[   3.604][v][vo/gpu/d3d11] shaderc: 1485us, SPIRV-Cross: 87us, D3DCompile: 1171us
+[   3.604][d][vo/gpu/d3d11] GLSL source:
+[   3.604][d][vo/gpu/d3d11] [  1] #version 450
+[   3.604][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.604][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.604][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.604][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.604][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.604][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.604][d][vo/gpu/d3d11] [  8] void main() {
+[   3.604][d][vo/gpu/d3d11] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.604][d][vo/gpu/d3d11] [ 10] texcoord0 = vertex_texcoord0;
+[   3.604][d][vo/gpu/d3d11] [ 11] }
+[   3.604][d][vo/gpu/d3d11] HLSL source:
+[   3.604][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.604][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.604][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.604][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.604][d][vo/gpu/d3d11] [  5] 
+[   3.604][d][vo/gpu/d3d11] [  6] struct SPIRV_Cross_Input
+[   3.604][d][vo/gpu/d3d11] [  7] {
+[   3.604][d][vo/gpu/d3d11] [  8]     float2 _18 : TEXCOORD0;
+[   3.604][d][vo/gpu/d3d11] [  9]     float2 _28 : TEXCOORD1;
+[   3.604][d][vo/gpu/d3d11] [ 10] };
+[   3.604][d][vo/gpu/d3d11] [ 11] 
+[   3.604][d][vo/gpu/d3d11] [ 12] struct SPIRV_Cross_Output
+[   3.604][d][vo/gpu/d3d11] [ 13] {
+[   3.604][d][vo/gpu/d3d11] [ 14]     float2 _27 : TEXCOORD1;
+[   3.604][d][vo/gpu/d3d11] [ 15]     float4 gl_Position : SV_Position;
+[   3.604][d][vo/gpu/d3d11] [ 16] };
+[   3.604][d][vo/gpu/d3d11] [ 17] 
+[   3.604][d][vo/gpu/d3d11] [ 18] void vert_main()
+[   3.604][d][vo/gpu/d3d11] [ 19] {
+[   3.604][d][vo/gpu/d3d11] [ 20]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.604][d][vo/gpu/d3d11] [ 21]     _27 = _28;
+[   3.604][d][vo/gpu/d3d11] [ 22]     gl_Position.y = -gl_Position.y;
+[   3.604][d][vo/gpu/d3d11] [ 23] }
+[   3.604][d][vo/gpu/d3d11] [ 24] 
+[   3.604][d][vo/gpu/d3d11] [ 25] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.604][d][vo/gpu/d3d11] [ 26] {
+[   3.604][d][vo/gpu/d3d11] [ 27]     _18 = stage_input._18;
+[   3.604][d][vo/gpu/d3d11] [ 28]     _28 = stage_input._28;
+[   3.605][d][vo/gpu/d3d11] [ 29]     vert_main();
+[   3.605][d][vo/gpu/d3d11] [ 30]     SPIRV_Cross_Output stage_output;
+[   3.605][d][vo/gpu/d3d11] [ 31]     stage_output.gl_Position = gl_Position;
+[   3.605][d][vo/gpu/d3d11] [ 32]     stage_output._27 = _27;
+[   3.605][d][vo/gpu/d3d11] [ 33]     return stage_output;
+[   3.605][d][vo/gpu/d3d11] [ 34] }
+[   3.607][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.612][v][vo/gpu/d3d11] Compiled a fragment shader in 7622us
+[   3.612][v][vo/gpu/d3d11] shaderc: 2997us, SPIRV-Cross: 242us, D3DCompile: 4383us
+[   3.612][d][vo/gpu/d3d11] GLSL source:
+[   3.612][d][vo/gpu/d3d11] [  1] #version 450
+[   3.612][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.612][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.612][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.612][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.612][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.612][d][vo/gpu/d3d11] [  7] layout(std140, binding=0) uniform UBO {
+[   3.612][d][vo/gpu/d3d11] [  8] layout(offset=0) vec2 texture_size0;
+[   3.612][d][vo/gpu/d3d11] [  9] layout(offset=16) mat2 texture_rot0;
+[   3.612][d][vo/gpu/d3d11] [ 10] layout(offset=48) vec2 texture_off0;
+[   3.612][d][vo/gpu/d3d11] [ 11] layout(offset=56) vec2 pixel_size0;
+[   3.612][d][vo/gpu/d3d11] [ 12] };
+[   3.612][d][vo/gpu/d3d11] [ 13] layout(binding=0) uniform sampler2D lut;
+[   3.612][d][vo/gpu/d3d11] [ 14] layout(binding=1) uniform sampler2D texture0;
+[   3.612][d][vo/gpu/d3d11] [ 15] void main() {
+[   3.612][d][vo/gpu/d3d11] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.612][d][vo/gpu/d3d11] [ 17] #undef tex
+[   3.612][d][vo/gpu/d3d11] [ 18] #undef texmap
+[   3.612][d][vo/gpu/d3d11] [ 19] #define tex texture0
+[   3.612][d][vo/gpu/d3d11] [ 20] #define texmap texmap0
+[   3.612][d][vo/gpu/d3d11] [ 21] vec2 pos = texcoord0;
+[   3.612][d][vo/gpu/d3d11] [ 22] vec2 size = texture_size0;
+[   3.612][d][vo/gpu/d3d11] [ 23] vec2 pt = pixel_size0;
+[   3.612][d][vo/gpu/d3d11] [ 24] color = vec4(0.0);
+[   3.612][d][vo/gpu/d3d11] [ 25] {
+[   3.612][d][vo/gpu/d3d11] [ 26] vec2 dir = vec2(1.0, 0.0);
+[   3.612][d][vo/gpu/d3d11] [ 27] pt *= dir;
+[   3.612][d][vo/gpu/d3d11] [ 28] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   3.612][d][vo/gpu/d3d11] [ 29] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   3.612][d][vo/gpu/d3d11] [ 30] vec4 c;
+[   3.612][d][vo/gpu/d3d11] [ 31] float ypos = LUT_POS(fcoord, 64.0);
+[   3.612][d][vo/gpu/d3d11] [ 32] float weights[6];
+[   3.612][d][vo/gpu/d3d11] [ 33] c = texture(lut, vec2(0.250000, ypos));
+[   3.612][d][vo/gpu/d3d11] [ 34] weights[0] = c[0];
+[   3.612][d][vo/gpu/d3d11] [ 35] weights[1] = c[1];
+[   3.612][d][vo/gpu/d3d11] [ 36] weights[2] = c[2];
+[   3.612][d][vo/gpu/d3d11] [ 37] weights[3] = c[3];
+[   3.612][d][vo/gpu/d3d11] [ 38] c = texture(lut, vec2(0.750000, ypos));
+[   3.612][d][vo/gpu/d3d11] [ 39] weights[4] = c[0];
+[   3.612][d][vo/gpu/d3d11] [ 40] weights[5] = c[1];
+[   3.612][d][vo/gpu/d3d11] [ 41] // scaler samples
+[   3.612][d][vo/gpu/d3d11] [ 42] c = texture(tex, base + pt * vec2(0.0));
+[   3.612][d][vo/gpu/d3d11] [ 43] color += vec4(weights[0]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 44] c = texture(tex, base + pt * vec2(1.0));
+[   3.612][d][vo/gpu/d3d11] [ 45] color += vec4(weights[1]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 46] c = texture(tex, base + pt * vec2(2.0));
+[   3.612][d][vo/gpu/d3d11] [ 47] color += vec4(weights[2]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 48] c = texture(tex, base + pt * vec2(3.0));
+[   3.612][d][vo/gpu/d3d11] [ 49] color += vec4(weights[3]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 50] c = texture(tex, base + pt * vec2(4.0));
+[   3.612][d][vo/gpu/d3d11] [ 51] color += vec4(weights[4]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 52] c = texture(tex, base + pt * vec2(5.0));
+[   3.612][d][vo/gpu/d3d11] [ 53] color += vec4(weights[5]) * c;
+[   3.612][d][vo/gpu/d3d11] [ 54] }
+[   3.612][d][vo/gpu/d3d11] [ 55] color.b = 0.000000;
+[   3.612][d][vo/gpu/d3d11] [ 56] color.a = 1.000000;
+[   3.612][d][vo/gpu/d3d11] [ 57] out_color = color;
+[   3.612][d][vo/gpu/d3d11] [ 58] }
+[   3.612][d][vo/gpu/d3d11] HLSL source:
+[   3.612][d][vo/gpu/d3d11] [  1] cbuffer _21_23 : register(b0)
+[   3.612][d][vo/gpu/d3d11] [  2] {
+[   3.612][d][vo/gpu/d3d11] [  3]     float2 _23_m0 : packoffset(c0);
+[   3.612][d][vo/gpu/d3d11] [  4]     row_major float2x2 _23_m1 : packoffset(c1);
+[   3.612][d][vo/gpu/d3d11] [  5]     float2 _23_m2 : packoffset(c3);
+[   3.612][d][vo/gpu/d3d11] [  6]     float2 _23_m3 : packoffset(c3.z);
+[   3.612][d][vo/gpu/d3d11] [  7] };
+[   3.612][d][vo/gpu/d3d11] [  8] 
+[   3.612][d][vo/gpu/d3d11] [  9] Texture2D<float4> _70 : register(t0);
+[   3.612][d][vo/gpu/d3d11] [ 10] SamplerState __70_sampler : register(s0);
+[   3.612][d][vo/gpu/d3d11] [ 11] Texture2D<float4> _112 : register(t1);
+[   3.612][d][vo/gpu/d3d11] [ 12] SamplerState __112_sampler : register(s1);
+[   3.612][d][vo/gpu/d3d11] [ 13] 
+[   3.612][d][vo/gpu/d3d11] [ 14] static float2 _17;
+[   3.612][d][vo/gpu/d3d11] [ 15] static float4 _202;
+[   3.612][d][vo/gpu/d3d11] [ 16] 
+[   3.612][d][vo/gpu/d3d11] [ 17] struct SPIRV_Cross_Input
+[   3.612][d][vo/gpu/d3d11] [ 18] {
+[   3.612][d][vo/gpu/d3d11] [ 19]     float2 _17 : TEXCOORD1;
+[   3.612][d][vo/gpu/d3d11] [ 20] };
+[   3.612][d][vo/gpu/d3d11] [ 21] 
+[   3.612][d][vo/gpu/d3d11] [ 22] struct SPIRV_Cross_Output
+[   3.612][d][vo/gpu/d3d11] [ 23] {
+[   3.612][d][vo/gpu/d3d11] [ 24]     float4 _202 : SV_Target0;
+[   3.612][d][vo/gpu/d3d11] [ 25] };
+[   3.612][d][vo/gpu/d3d11] [ 26] 
+[   3.612][d][vo/gpu/d3d11] [ 27] void frag_main()
+[   3.612][d][vo/gpu/d3d11] [ 28] {
+[   3.612][d][vo/gpu/d3d11] [ 29]     float2 _47 = frac(mad(_17, _23_m0, (-0.5f).xx));
+[   3.612][d][vo/gpu/d3d11] [ 30]     float _49 = _47.x;
+[   3.612][d][vo/gpu/d3d11] [ 31]     float2 _60 = mad(-_23_m3, float2(2.0f, 0.0f), _17 - ((_23_m3 * float2(1.0f, 0.0f)) * _49));
+[   3.612][d][vo/gpu/d3d11] [ 32]     float _65 = lerp(0.0078125f, 0.9921875f, _49);
+[   3.612][d][vo/gpu/d3d11] [ 33]     float4 _75 = _70.Sample(__70_sampler, float2(0.25f, _65));
+[   3.612][d][vo/gpu/d3d11] [ 34]     float4 _103 = _70.Sample(__70_sampler, float2(0.75f, _65));
+[   3.612][d][vo/gpu/d3d11] [ 35]     float4 _198 = mad(_103.y.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(5.0f, 0.0f), _60)), mad(_103.x.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(4.0f, 0.0f), _60)), mad(_75.w.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(3.0f, 0.0f), _60)), mad(_75.z.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(2.0f, 0.0f), _60)), mad(_75.x.xxxx, _112.Sample(__112_sampler, _60), _75.y.xxxx * _112.Sample(__112_sampler, mad(_23_m3, float2(1.0f, 0.0f), _60)))))));
+[   3.613][d][vo/gpu/d3d11] [ 36]     _198.z = 0.0f;
+[   3.613][d][vo/gpu/d3d11] [ 37]     _198.w = 1.0f;
+[   3.613][d][vo/gpu/d3d11] [ 38]     _202 = _198;
+[   3.613][d][vo/gpu/d3d11] [ 39] }
+[   3.613][d][vo/gpu/d3d11] [ 40] 
+[   3.613][d][vo/gpu/d3d11] [ 41] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.613][d][vo/gpu/d3d11] [ 42] {
+[   3.613][d][vo/gpu/d3d11] [ 43]     _17 = stage_input._17;
+[   3.613][d][vo/gpu/d3d11] [ 44]     frag_main();
+[   3.613][d][vo/gpu/d3d11] [ 45]     SPIRV_Cross_Output stage_output;
+[   3.613][d][vo/gpu/d3d11] [ 46]     stage_output._202 = _202;
+[   3.613][d][vo/gpu/d3d11] [ 47]     return stage_output;
+[   3.613][d][vo/gpu/d3d11] [ 48] }
+[   3.613][d][vo/gpu] Resizing texture: 1920x1080
+[   3.614][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.615][v][vo/gpu/d3d11] Compiled a vertex shader in 2665us
+[   3.615][v][vo/gpu/d3d11] shaderc: 1393us, SPIRV-Cross: 90us, D3DCompile: 1182us
+[   3.615][d][vo/gpu/d3d11] GLSL source:
+[   3.615][d][vo/gpu/d3d11] [  1] #version 450
+[   3.615][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.615][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.615][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.615][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.615][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.615][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.615][d][vo/gpu/d3d11] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   3.615][d][vo/gpu/d3d11] [  9] layout(location=2) out vec2 texcoord1;
+[   3.615][d][vo/gpu/d3d11] [ 10] void main() {
+[   3.615][d][vo/gpu/d3d11] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.615][d][vo/gpu/d3d11] [ 12] texcoord0 = vertex_texcoord0;
+[   3.615][d][vo/gpu/d3d11] [ 13] texcoord1 = vertex_texcoord1;
+[   3.615][d][vo/gpu/d3d11] [ 14] }
+[   3.615][d][vo/gpu/d3d11] HLSL source:
+[   3.615][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.615][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.615][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.615][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.615][d][vo/gpu/d3d11] [  5] static float2 _30;
+[   3.615][d][vo/gpu/d3d11] [  6] static float2 _31;
+[   3.615][d][vo/gpu/d3d11] [  7] 
+[   3.615][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   3.615][d][vo/gpu/d3d11] [  9] {
+[   3.615][d][vo/gpu/d3d11] [ 10]     float2 _18 : TEXCOORD0;
+[   3.615][d][vo/gpu/d3d11] [ 11]     float2 _28 : TEXCOORD1;
+[   3.615][d][vo/gpu/d3d11] [ 12]     float2 _31 : TEXCOORD2;
+[   3.615][d][vo/gpu/d3d11] [ 13] };
+[   3.615][d][vo/gpu/d3d11] [ 14] 
+[   3.615][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Output
+[   3.615][d][vo/gpu/d3d11] [ 16] {
+[   3.615][d][vo/gpu/d3d11] [ 17]     float2 _27 : TEXCOORD1;
+[   3.615][d][vo/gpu/d3d11] [ 18]     float2 _30 : TEXCOORD2;
+[   3.615][d][vo/gpu/d3d11] [ 19]     float4 gl_Position : SV_Position;
+[   3.615][d][vo/gpu/d3d11] [ 20] };
+[   3.615][d][vo/gpu/d3d11] [ 21] 
+[   3.615][d][vo/gpu/d3d11] [ 22] void vert_main()
+[   3.616][d][vo/gpu/d3d11] [ 23] {
+[   3.616][d][vo/gpu/d3d11] [ 24]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.616][d][vo/gpu/d3d11] [ 25]     _27 = _28;
+[   3.616][d][vo/gpu/d3d11] [ 26]     _30 = _31;
+[   3.616][d][vo/gpu/d3d11] [ 27]     gl_Position.y = -gl_Position.y;
+[   3.616][d][vo/gpu/d3d11] [ 28] }
+[   3.616][d][vo/gpu/d3d11] [ 29] 
+[   3.616][d][vo/gpu/d3d11] [ 30] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.616][d][vo/gpu/d3d11] [ 31] {
+[   3.616][d][vo/gpu/d3d11] [ 32]     _18 = stage_input._18;
+[   3.616][d][vo/gpu/d3d11] [ 33]     _28 = stage_input._28;
+[   3.616][d][vo/gpu/d3d11] [ 34]     _31 = stage_input._31;
+[   3.616][d][vo/gpu/d3d11] [ 35]     vert_main();
+[   3.616][d][vo/gpu/d3d11] [ 36]     SPIRV_Cross_Output stage_output;
+[   3.616][d][vo/gpu/d3d11] [ 37]     stage_output.gl_Position = gl_Position;
+[   3.616][d][vo/gpu/d3d11] [ 38]     stage_output._27 = _27;
+[   3.616][d][vo/gpu/d3d11] [ 39]     stage_output._30 = _30;
+[   3.616][d][vo/gpu/d3d11] [ 40]     return stage_output;
+[   3.616][d][vo/gpu/d3d11] [ 41] }
+[   3.618][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.622][v][vo/gpu/d3d11] Compiled a fragment shader in 6096us
+[   3.622][v][vo/gpu/d3d11] shaderc: 2439us, SPIRV-Cross: 207us, D3DCompile: 3450us
+[   3.622][d][vo/gpu/d3d11] GLSL source:
+[   3.622][d][vo/gpu/d3d11] [  1] #version 450
+[   3.622][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.622][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.622][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.622][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.622][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.622][d][vo/gpu/d3d11] [  7] layout(location=2) in vec2 texcoord1;
+[   3.622][d][vo/gpu/d3d11] [  8] layout(std140, binding=0) uniform UBO {
+[   3.622][d][vo/gpu/d3d11] [  9] layout(offset=0) mat3 colormatrix;
+[   3.622][d][vo/gpu/d3d11] [ 10] layout(offset=48) vec3 colormatrix_c;
+[   3.622][d][vo/gpu/d3d11] [ 11] layout(offset=64) vec2 texture_size0;
+[   3.622][d][vo/gpu/d3d11] [ 12] layout(offset=80) mat2 texture_rot0;
+[   3.622][d][vo/gpu/d3d11] [ 13] layout(offset=112) vec2 texture_off0;
+[   3.622][d][vo/gpu/d3d11] [ 14] layout(offset=120) vec2 pixel_size0;
+[   3.622][d][vo/gpu/d3d11] [ 15] layout(offset=128) vec2 texture_size1;
+[   3.622][d][vo/gpu/d3d11] [ 16] layout(offset=144) mat2 texture_rot1;
+[   3.622][d][vo/gpu/d3d11] [ 17] layout(offset=176) vec2 texture_off1;
+[   3.622][d][vo/gpu/d3d11] [ 18] layout(offset=184) vec2 pixel_size1;
+[   3.622][d][vo/gpu/d3d11] [ 19] };
+[   3.622][d][vo/gpu/d3d11] [ 20] layout(binding=0) uniform sampler2D texture0;
+[   3.622][d][vo/gpu/d3d11] [ 21] layout(binding=1) uniform sampler2D texture1;
+[   3.622][d][vo/gpu/d3d11] [ 22] void main() {
+[   3.622][d][vo/gpu/d3d11] [ 23] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.622][d][vo/gpu/d3d11] [ 24] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   3.622][d][vo/gpu/d3d11] [ 25] color.gb = 1.000000 * vec4(texture(texture1, texcoord1)).rg;
+[   3.622][d][vo/gpu/d3d11] [ 26] color = color.rgbr;
+[   3.622][d][vo/gpu/d3d11] [ 27] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   3.622][d][vo/gpu/d3d11] [ 28] color.a = 1.0;
+[   3.622][d][vo/gpu/d3d11] [ 29] // scaler pre-conversion
+[   3.622][d][vo/gpu/d3d11] [ 30] // linearize
+[   3.622][d][vo/gpu/d3d11] [ 31] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   3.622][d][vo/gpu/d3d11] [ 32] color.rgb = pow(color.rgb, vec3(2.4));
+[   3.622][d][vo/gpu/d3d11] [ 33] color.rgb *= vec3(1.0/1.000000);
+[   3.622][d][vo/gpu/d3d11] [ 34] // main scaling
+[   3.622][d][vo/gpu/d3d11] [ 35] out_color = color;
+[   3.622][d][vo/gpu/d3d11] [ 36] }
+[   3.622][d][vo/gpu/d3d11] HLSL source:
+[   3.622][d][vo/gpu/d3d11] [  1] static float4 _155;
+[   3.622][d][vo/gpu/d3d11] [  2] 
+[   3.622][d][vo/gpu/d3d11] [  3] cbuffer _57_59 : register(b0)
+[   3.622][d][vo/gpu/d3d11] [  4] {
+[   3.622][d][vo/gpu/d3d11] [  5]     row_major float3x3 _59_m0 : packoffset(c0);
+[   3.622][d][vo/gpu/d3d11] [  6]     float3 _59_m1 : packoffset(c3);
+[   3.622][d][vo/gpu/d3d11] [  7]     float2 _59_m2 : packoffset(c4);
+[   3.622][d][vo/gpu/d3d11] [  8]     row_major float2x2 _59_m3 : packoffset(c5);
+[   3.622][d][vo/gpu/d3d11] [  9]     float2 _59_m4 : packoffset(c7);
+[   3.622][d][vo/gpu/d3d11] [ 10]     float2 _59_m5 : packoffset(c7.z);
+[   3.622][d][vo/gpu/d3d11] [ 11]     float2 _59_m6 : packoffset(c8);
+[   3.622][d][vo/gpu/d3d11] [ 12]     row_major float2x2 _59_m7 : packoffset(c9);
+[   3.622][d][vo/gpu/d3d11] [ 13]     float2 _59_m8 : packoffset(c11);
+[   3.622][d][vo/gpu/d3d11] [ 14]     float2 _59_m9 : packoffset(c11.z);
+[   3.622][d][vo/gpu/d3d11] [ 15] };
+[   3.622][d][vo/gpu/d3d11] [ 16] 
+[   3.622][d][vo/gpu/d3d11] [ 17] Texture2D<float4> _16 : register(t0);
+[   3.622][d][vo/gpu/d3d11] [ 18] SamplerState __16_sampler : register(s0);
+[   3.622][d][vo/gpu/d3d11] [ 19] Texture2D<float4> _34 : register(t1);
+[   3.622][d][vo/gpu/d3d11] [ 20] SamplerState __34_sampler : register(s1);
+[   3.622][d][vo/gpu/d3d11] [ 21] 
+[   3.622][d][vo/gpu/d3d11] [ 22] static float2 _20;
+[   3.622][d][vo/gpu/d3d11] [ 23] static float2 _36;
+[   3.622][d][vo/gpu/d3d11] [ 24] static float4 _118;
+[   3.622][d][vo/gpu/d3d11] [ 25] 
+[   3.622][d][vo/gpu/d3d11] [ 26] struct SPIRV_Cross_Input
+[   3.622][d][vo/gpu/d3d11] [ 27] {
+[   3.622][d][vo/gpu/d3d11] [ 28]     float2 _20 : TEXCOORD1;
+[   3.622][d][vo/gpu/d3d11] [ 29]     float2 _36 : TEXCOORD2;
+[   3.622][d][vo/gpu/d3d11] [ 30] };
+[   3.622][d][vo/gpu/d3d11] [ 31] 
+[   3.622][d][vo/gpu/d3d11] [ 32] struct SPIRV_Cross_Output
+[   3.622][d][vo/gpu/d3d11] [ 33] {
+[   3.622][d][vo/gpu/d3d11] [ 34]     float4 _118 : SV_Target0;
+[   3.622][d][vo/gpu/d3d11] [ 35] };
+[   3.622][d][vo/gpu/d3d11] [ 36] 
+[   3.622][d][vo/gpu/d3d11] [ 37] void frag_main()
+[   3.622][d][vo/gpu/d3d11] [ 38] {
+[   3.622][d][vo/gpu/d3d11] [ 39]     float4 _121;
+[   3.622][d][vo/gpu/d3d11] [ 40]     _121.x = _16.Sample(__16_sampler, _20).x;
+[   3.622][d][vo/gpu/d3d11] [ 41]     float2 _45 = _34.Sample(__34_sampler, _36).xy * 1.0f;
+[   3.622][d][vo/gpu/d3d11] [ 42]     _121.y = _45.x;
+[   3.622][d][vo/gpu/d3d11] [ 43]     _121.z = _45.y;
+[   3.622][d][vo/gpu/d3d11] [ 44]     float4 _154 = float4(mul(_121.xyz, _59_m0) + _59_m1, 1.0f);
+[   3.622][d][vo/gpu/d3d11] [ 45]     float3 _89 = clamp(_154.xyz, 0.0f.xxx, 1.0f.xxx);
+[   3.622][d][vo/gpu/d3d11] [ 46]     float4 _135 = _154;
+[   3.622][d][vo/gpu/d3d11] [ 47]     _135.x = _89.x;
+[   3.622][d][vo/gpu/d3d11] [ 48]     _135.y = _89.y;
+[   3.622][d][vo/gpu/d3d11] [ 49]     _135.z = _89.z;
+[   3.622][d][vo/gpu/d3d11] [ 50]     float3 _100 = pow(_135.xyz, 2.400000095367431640625f.xxx);
+[   3.622][d][vo/gpu/d3d11] [ 51]     float4 _147 = _135;
+[   3.622][d][vo/gpu/d3d11] [ 52]     _147.x = _100.x;
+[   3.622][d][vo/gpu/d3d11] [ 53]     _147.y = _100.y;
+[   3.622][d][vo/gpu/d3d11] [ 54]     _147.z = _100.z;
+[   3.622][d][vo/gpu/d3d11] [ 55]     _118 = _147;
+[   3.622][d][vo/gpu/d3d11] [ 56] }
+[   3.622][d][vo/gpu/d3d11] [ 57] 
+[   3.622][d][vo/gpu/d3d11] [ 58] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.622][d][vo/gpu/d3d11] [ 59] {
+[   3.622][d][vo/gpu/d3d11] [ 60]     _20 = stage_input._20;
+[   3.622][d][vo/gpu/d3d11] [ 61]     _36 = stage_input._36;
+[   3.622][d][vo/gpu/d3d11] [ 62]     frag_main();
+[   3.622][d][vo/gpu/d3d11] [ 63]     SPIRV_Cross_Output stage_output;
+[   3.622][d][vo/gpu/d3d11] [ 64]     stage_output._118 = _118;
+[   3.622][d][vo/gpu/d3d11] [ 65]     return stage_output;
+[   3.622][d][vo/gpu/d3d11] [ 66] }
+[   3.622][d][vo/gpu] Resizing texture: 1920x463
+[   3.623][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.624][v][vo/gpu/d3d11] Compiled a vertex shader in 2418us
+[   3.625][v][vo/gpu/d3d11] shaderc: 1306us, SPIRV-Cross: 72us, D3DCompile: 1040us
+[   3.625][d][vo/gpu/d3d11] GLSL source:
+[   3.625][d][vo/gpu/d3d11] [  1] #version 450
+[   3.625][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.625][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.625][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.625][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.625][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.625][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.625][d][vo/gpu/d3d11] [  8] void main() {
+[   3.625][d][vo/gpu/d3d11] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.625][d][vo/gpu/d3d11] [ 10] texcoord0 = vertex_texcoord0;
+[   3.625][d][vo/gpu/d3d11] [ 11] }
+[   3.625][d][vo/gpu/d3d11] HLSL source:
+[   3.625][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.625][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.625][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.625][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.625][d][vo/gpu/d3d11] [  5] 
+[   3.625][d][vo/gpu/d3d11] [  6] struct SPIRV_Cross_Input
+[   3.625][d][vo/gpu/d3d11] [  7] {
+[   3.625][d][vo/gpu/d3d11] [  8]     float2 _18 : TEXCOORD0;
+[   3.625][d][vo/gpu/d3d11] [  9]     float2 _28 : TEXCOORD1;
+[   3.625][d][vo/gpu/d3d11] [ 10] };
+[   3.625][d][vo/gpu/d3d11] [ 11] 
+[   3.625][d][vo/gpu/d3d11] [ 12] struct SPIRV_Cross_Output
+[   3.625][d][vo/gpu/d3d11] [ 13] {
+[   3.625][d][vo/gpu/d3d11] [ 14]     float2 _27 : TEXCOORD1;
+[   3.625][d][vo/gpu/d3d11] [ 15]     float4 gl_Position : SV_Position;
+[   3.625][d][vo/gpu/d3d11] [ 16] };
+[   3.625][d][vo/gpu/d3d11] [ 17] 
+[   3.625][d][vo/gpu/d3d11] [ 18] void vert_main()
+[   3.625][d][vo/gpu/d3d11] [ 19] {
+[   3.625][d][vo/gpu/d3d11] [ 20]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.625][d][vo/gpu/d3d11] [ 21]     _27 = _28;
+[   3.625][d][vo/gpu/d3d11] [ 22]     gl_Position.y = -gl_Position.y;
+[   3.625][d][vo/gpu/d3d11] [ 23] }
+[   3.625][d][vo/gpu/d3d11] [ 24] 
+[   3.625][d][vo/gpu/d3d11] [ 25] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.625][d][vo/gpu/d3d11] [ 26] {
+[   3.625][d][vo/gpu/d3d11] [ 27]     _18 = stage_input._18;
+[   3.625][d][vo/gpu/d3d11] [ 28]     _28 = stage_input._28;
+[   3.625][d][vo/gpu/d3d11] [ 29]     vert_main();
+[   3.625][d][vo/gpu/d3d11] [ 30]     SPIRV_Cross_Output stage_output;
+[   3.625][d][vo/gpu/d3d11] [ 31]     stage_output.gl_Position = gl_Position;
+[   3.625][d][vo/gpu/d3d11] [ 32]     stage_output._27 = _27;
+[   3.625][d][vo/gpu/d3d11] [ 33]     return stage_output;
+[   3.625][d][vo/gpu/d3d11] [ 34] }
+[   3.627][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.633][v][vo/gpu/d3d11] Compiled a fragment shader in 8901us
+[   3.633][v][vo/gpu/d3d11] shaderc: 2877us, SPIRV-Cross: 234us, D3DCompile: 5790us
+[   3.634][d][vo/gpu/d3d11] GLSL source:
+[   3.634][d][vo/gpu/d3d11] [  1] #version 450
+[   3.634][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.634][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.634][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.634][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.634][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.634][d][vo/gpu/d3d11] [  7] layout(std140, binding=0) uniform UBO {
+[   3.634][d][vo/gpu/d3d11] [  8] layout(offset=0) vec2 texture_size0;
+[   3.634][d][vo/gpu/d3d11] [  9] layout(offset=16) mat2 texture_rot0;
+[   3.634][d][vo/gpu/d3d11] [ 10] layout(offset=48) vec2 texture_off0;
+[   3.634][d][vo/gpu/d3d11] [ 11] layout(offset=56) vec2 pixel_size0;
+[   3.634][d][vo/gpu/d3d11] [ 12] };
+[   3.634][d][vo/gpu/d3d11] [ 13] layout(binding=0) uniform sampler2D lut;
+[   3.634][d][vo/gpu/d3d11] [ 14] layout(binding=1) uniform sampler2D texture0;
+[   3.634][d][vo/gpu/d3d11] [ 15] void main() {
+[   3.634][d][vo/gpu/d3d11] [ 16] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.634][d][vo/gpu/d3d11] [ 17] #undef tex
+[   3.634][d][vo/gpu/d3d11] [ 18] #undef texmap
+[   3.634][d][vo/gpu/d3d11] [ 19] #define tex texture0
+[   3.634][d][vo/gpu/d3d11] [ 20] #define texmap texmap0
+[   3.634][d][vo/gpu/d3d11] [ 21] vec2 pos = texcoord0;
+[   3.634][d][vo/gpu/d3d11] [ 22] vec2 size = texture_size0;
+[   3.634][d][vo/gpu/d3d11] [ 23] vec2 pt = pixel_size0;
+[   3.634][d][vo/gpu/d3d11] [ 24] // first pass
+[   3.634][d][vo/gpu/d3d11] [ 25] color = vec4(0.0);
+[   3.634][d][vo/gpu/d3d11] [ 26] {
+[   3.634][d][vo/gpu/d3d11] [ 27] vec2 dir = vec2(0.0, 1.0);
+[   3.634][d][vo/gpu/d3d11] [ 28] pt *= dir;
+[   3.634][d][vo/gpu/d3d11] [ 29] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   3.634][d][vo/gpu/d3d11] [ 30] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   3.634][d][vo/gpu/d3d11] [ 31] vec4 c;
+[   3.634][d][vo/gpu/d3d11] [ 32] float ypos = LUT_POS(fcoord, 64.0);
+[   3.634][d][vo/gpu/d3d11] [ 33] float weights[6];
+[   3.634][d][vo/gpu/d3d11] [ 34] c = texture(lut, vec2(0.250000, ypos));
+[   3.634][d][vo/gpu/d3d11] [ 35] weights[0] = c[0];
+[   3.634][d][vo/gpu/d3d11] [ 36] weights[1] = c[1];
+[   3.634][d][vo/gpu/d3d11] [ 37] weights[2] = c[2];
+[   3.634][d][vo/gpu/d3d11] [ 38] weights[3] = c[3];
+[   3.634][d][vo/gpu/d3d11] [ 39] c = texture(lut, vec2(0.750000, ypos));
+[   3.634][d][vo/gpu/d3d11] [ 40] weights[4] = c[0];
+[   3.634][d][vo/gpu/d3d11] [ 41] weights[5] = c[1];
+[   3.634][d][vo/gpu/d3d11] [ 42] // scaler samples
+[   3.634][d][vo/gpu/d3d11] [ 43] c = texture(tex, base + pt * vec2(0.0));
+[   3.634][d][vo/gpu/d3d11] [ 44] color += vec4(weights[0]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 45] c = texture(tex, base + pt * vec2(1.0));
+[   3.634][d][vo/gpu/d3d11] [ 46] color += vec4(weights[1]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 47] c = texture(tex, base + pt * vec2(2.0));
+[   3.634][d][vo/gpu/d3d11] [ 48] color += vec4(weights[2]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 49] c = texture(tex, base + pt * vec2(3.0));
+[   3.634][d][vo/gpu/d3d11] [ 50] color += vec4(weights[3]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 51] c = texture(tex, base + pt * vec2(4.0));
+[   3.634][d][vo/gpu/d3d11] [ 52] color += vec4(weights[4]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 53] c = texture(tex, base + pt * vec2(5.0));
+[   3.634][d][vo/gpu/d3d11] [ 54] color += vec4(weights[5]) * c;
+[   3.634][d][vo/gpu/d3d11] [ 55] }
+[   3.634][d][vo/gpu/d3d11] [ 56] color *= 1.000000;
+[   3.634][d][vo/gpu/d3d11] [ 57] out_color = color;
+[   3.634][d][vo/gpu/d3d11] [ 58] }
+[   3.634][d][vo/gpu/d3d11] HLSL source:
+[   3.634][d][vo/gpu/d3d11] [  1] cbuffer _21_23 : register(b0)
+[   3.634][d][vo/gpu/d3d11] [  2] {
+[   3.634][d][vo/gpu/d3d11] [  3]     float2 _23_m0 : packoffset(c0);
+[   3.634][d][vo/gpu/d3d11] [  4]     row_major float2x2 _23_m1 : packoffset(c1);
+[   3.634][d][vo/gpu/d3d11] [  5]     float2 _23_m2 : packoffset(c3);
+[   3.634][d][vo/gpu/d3d11] [  6]     float2 _23_m3 : packoffset(c3.z);
+[   3.634][d][vo/gpu/d3d11] [  7] };
+[   3.634][d][vo/gpu/d3d11] [  8] 
+[   3.634][d][vo/gpu/d3d11] [  9] Texture2D<float4> _70 : register(t0);
+[   3.634][d][vo/gpu/d3d11] [ 10] SamplerState __70_sampler : register(s0);
+[   3.634][d][vo/gpu/d3d11] [ 11] Texture2D<float4> _112 : register(t1);
+[   3.634][d][vo/gpu/d3d11] [ 12] SamplerState __112_sampler : register(s1);
+[   3.634][d][vo/gpu/d3d11] [ 13] 
+[   3.634][d][vo/gpu/d3d11] [ 14] static float2 _17;
+[   3.634][d][vo/gpu/d3d11] [ 15] static float4 _202;
+[   3.634][d][vo/gpu/d3d11] [ 16] 
+[   3.634][d][vo/gpu/d3d11] [ 17] struct SPIRV_Cross_Input
+[   3.634][d][vo/gpu/d3d11] [ 18] {
+[   3.634][d][vo/gpu/d3d11] [ 19]     float2 _17 : TEXCOORD1;
+[   3.634][d][vo/gpu/d3d11] [ 20] };
+[   3.634][d][vo/gpu/d3d11] [ 21] 
+[   3.634][d][vo/gpu/d3d11] [ 22] struct SPIRV_Cross_Output
+[   3.634][d][vo/gpu/d3d11] [ 23] {
+[   3.634][d][vo/gpu/d3d11] [ 24]     float4 _202 : SV_Target0;
+[   3.634][d][vo/gpu/d3d11] [ 25] };
+[   3.634][d][vo/gpu/d3d11] [ 26] 
+[   3.634][d][vo/gpu/d3d11] [ 27] void frag_main()
+[   3.634][d][vo/gpu/d3d11] [ 28] {
+[   3.634][d][vo/gpu/d3d11] [ 29]     float2 _47 = frac(mad(_17, _23_m0, (-0.5f).xx));
+[   3.634][d][vo/gpu/d3d11] [ 30]     float _49 = _47.y;
+[   3.634][d][vo/gpu/d3d11] [ 31]     float2 _60 = mad(-_23_m3, float2(0.0f, 2.0f), _17 - ((_23_m3 * float2(0.0f, 1.0f)) * _49));
+[   3.634][d][vo/gpu/d3d11] [ 32]     float _65 = lerp(0.0078125f, 0.9921875f, _49);
+[   3.634][d][vo/gpu/d3d11] [ 33]     float4 _75 = _70.Sample(__70_sampler, float2(0.25f, _65));
+[   3.634][d][vo/gpu/d3d11] [ 34]     float4 _103 = _70.Sample(__70_sampler, float2(0.75f, _65));
+[   3.634][d][vo/gpu/d3d11] [ 35]     _202 = mad(_103.y.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 5.0f), _60)), mad(_103.x.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 4.0f), _60)), mad(_75.w.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 3.0f), _60)), mad(_75.z.xxxx, _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 2.0f), _60)), mad(_75.x.xxxx, _112.Sample(__112_sampler, _60), _75.y.xxxx * _112.Sample(__112_sampler, mad(_23_m3, float2(0.0f, 1.0f), _60))))))) * 1.0f;
+[   3.634][d][vo/gpu/d3d11] [ 36] }
+[   3.634][d][vo/gpu/d3d11] [ 37] 
+[   3.634][d][vo/gpu/d3d11] [ 38] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.634][d][vo/gpu/d3d11] [ 39] {
+[   3.634][d][vo/gpu/d3d11] [ 40]     _17 = stage_input._17;
+[   3.634][d][vo/gpu/d3d11] [ 41]     frag_main();
+[   3.634][d][vo/gpu/d3d11] [ 42]     SPIRV_Cross_Output stage_output;
+[   3.634][d][vo/gpu/d3d11] [ 43]     stage_output._202 = _202;
+[   3.634][d][vo/gpu/d3d11] [ 44]     return stage_output;
+[   3.634][d][vo/gpu/d3d11] [ 45] }
+[   3.634][v][vo/gpu] Dither to 8.
+[   3.648][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.650][v][vo/gpu/d3d11] Compiled a vertex shader in 2768us
+[   3.650][v][vo/gpu/d3d11] shaderc: 1399us, SPIRV-Cross: 93us, D3DCompile: 1276us
+[   3.650][d][vo/gpu/d3d11] GLSL source:
+[   3.650][d][vo/gpu/d3d11] [  1] #version 450
+[   3.650][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.650][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.650][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.650][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   3.650][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   3.650][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   3.650][d][vo/gpu/d3d11] [  8] void main() {
+[   3.650][d][vo/gpu/d3d11] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   3.650][d][vo/gpu/d3d11] [ 10] texcoord0 = vertex_texcoord0;
+[   3.650][d][vo/gpu/d3d11] [ 11] }
+[   3.650][d][vo/gpu/d3d11] HLSL source:
+[   3.650][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   3.650][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   3.650][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   3.650][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   3.650][d][vo/gpu/d3d11] [  5] 
+[   3.650][d][vo/gpu/d3d11] [  6] struct SPIRV_Cross_Input
+[   3.650][d][vo/gpu/d3d11] [  7] {
+[   3.650][d][vo/gpu/d3d11] [  8]     float2 _18 : TEXCOORD0;
+[   3.650][d][vo/gpu/d3d11] [  9]     float2 _28 : TEXCOORD1;
+[   3.650][d][vo/gpu/d3d11] [ 10] };
+[   3.650][d][vo/gpu/d3d11] [ 11] 
+[   3.650][d][vo/gpu/d3d11] [ 12] struct SPIRV_Cross_Output
+[   3.650][d][vo/gpu/d3d11] [ 13] {
+[   3.650][d][vo/gpu/d3d11] [ 14]     float2 _27 : TEXCOORD1;
+[   3.650][d][vo/gpu/d3d11] [ 15]     float4 gl_Position : SV_Position;
+[   3.650][d][vo/gpu/d3d11] [ 16] };
+[   3.650][d][vo/gpu/d3d11] [ 17] 
+[   3.650][d][vo/gpu/d3d11] [ 18] void vert_main()
+[   3.650][d][vo/gpu/d3d11] [ 19] {
+[   3.650][d][vo/gpu/d3d11] [ 20]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   3.650][d][vo/gpu/d3d11] [ 21]     _27 = _28;
+[   3.650][d][vo/gpu/d3d11] [ 22]     gl_Position.y = -gl_Position.y;
+[   3.650][d][vo/gpu/d3d11] [ 23] }
+[   3.650][d][vo/gpu/d3d11] [ 24] 
+[   3.650][d][vo/gpu/d3d11] [ 25] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.650][d][vo/gpu/d3d11] [ 26] {
+[   3.650][d][vo/gpu/d3d11] [ 27]     _18 = stage_input._18;
+[   3.650][d][vo/gpu/d3d11] [ 28]     _28 = stage_input._28;
+[   3.650][d][vo/gpu/d3d11] [ 29]     vert_main();
+[   3.650][d][vo/gpu/d3d11] [ 30]     SPIRV_Cross_Output stage_output;
+[   3.650][d][vo/gpu/d3d11] [ 31]     stage_output.gl_Position = gl_Position;
+[   3.650][d][vo/gpu/d3d11] [ 32]     stage_output._27 = _27;
+[   3.650][d][vo/gpu/d3d11] [ 33]     return stage_output;
+[   3.650][d][vo/gpu/d3d11] [ 34] }
+[   3.654][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   3.663][v][vo/gpu/d3d11] Compiled a fragment shader in 13300us
+[   3.663][v][vo/gpu/d3d11] shaderc: 3949us, SPIRV-Cross: 364us, D3DCompile: 8987us
+[   3.663][d][vo/gpu/d3d11] GLSL source:
+[   3.663][d][vo/gpu/d3d11] [  1] #version 450
+[   3.663][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   3.663][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   3.663][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   3.663][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   3.663][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   3.663][d][vo/gpu/d3d11] [  7] layout(std140, binding=0) uniform UBO {
+[   3.663][d][vo/gpu/d3d11] [  8] layout(offset=0) vec3 src_luma;
+[   3.663][d][vo/gpu/d3d11] [  9] layout(offset=16) vec3 dst_luma;
+[   3.663][d][vo/gpu/d3d11] [ 10] layout(offset=32) vec2 texture_size0;
+[   3.663][d][vo/gpu/d3d11] [ 11] layout(offset=48) mat2 texture_rot0;
+[   3.663][d][vo/gpu/d3d11] [ 12] layout(offset=80) vec2 texture_off0;
+[   3.663][d][vo/gpu/d3d11] [ 13] layout(offset=88) vec2 pixel_size0;
+[   3.663][d][vo/gpu/d3d11] [ 14] };
+[   3.663][d][vo/gpu/d3d11] [ 15] layout(binding=0) uniform sampler2D lut;
+[   3.663][d][vo/gpu/d3d11] [ 16] layout(binding=1) uniform sampler2D dither;
+[   3.663][d][vo/gpu/d3d11] [ 17] layout(binding=2) uniform sampler2D texture0;
+[   3.663][d][vo/gpu/d3d11] [ 18] void main() {
+[   3.663][d][vo/gpu/d3d11] [ 19] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   3.663][d][vo/gpu/d3d11] [ 20] #undef tex
+[   3.663][d][vo/gpu/d3d11] [ 21] #undef texmap
+[   3.663][d][vo/gpu/d3d11] [ 22] #define tex texture0
+[   3.663][d][vo/gpu/d3d11] [ 23] #define texmap texmap0
+[   3.663][d][vo/gpu/d3d11] [ 24] vec2 pos = texcoord0;
+[   3.663][d][vo/gpu/d3d11] [ 25] vec2 size = texture_size0;
+[   3.663][d][vo/gpu/d3d11] [ 26] vec2 pt = pixel_size0;
+[   3.663][d][vo/gpu/d3d11] [ 27] color = vec4(0.0);
+[   3.663][d][vo/gpu/d3d11] [ 28] {
+[   3.663][d][vo/gpu/d3d11] [ 29] vec2 dir = vec2(1.0, 0.0);
+[   3.663][d][vo/gpu/d3d11] [ 30] pt *= dir;
+[   3.663][d][vo/gpu/d3d11] [ 31] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   3.663][d][vo/gpu/d3d11] [ 32] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   3.663][d][vo/gpu/d3d11] [ 33] vec4 c;
+[   3.663][d][vo/gpu/d3d11] [ 34] float ypos = LUT_POS(fcoord, 64.0);
+[   3.663][d][vo/gpu/d3d11] [ 35] float weights[6];
+[   3.663][d][vo/gpu/d3d11] [ 36] c = texture(lut, vec2(0.250000, ypos));
+[   3.663][d][vo/gpu/d3d11] [ 37] weights[0] = c[0];
+[   3.663][d][vo/gpu/d3d11] [ 38] weights[1] = c[1];
+[   3.663][d][vo/gpu/d3d11] [ 39] weights[2] = c[2];
+[   3.663][d][vo/gpu/d3d11] [ 40] weights[3] = c[3];
+[   3.663][d][vo/gpu/d3d11] [ 41] c = texture(lut, vec2(0.750000, ypos));
+[   3.663][d][vo/gpu/d3d11] [ 42] weights[4] = c[0];
+[   3.663][d][vo/gpu/d3d11] [ 43] weights[5] = c[1];
+[   3.663][d][vo/gpu/d3d11] [ 44] // scaler samples
+[   3.663][d][vo/gpu/d3d11] [ 45] c = texture(tex, base + pt * vec2(0.0));
+[   3.663][d][vo/gpu/d3d11] [ 46] color += vec4(weights[0]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 47] c = texture(tex, base + pt * vec2(1.0));
+[   3.663][d][vo/gpu/d3d11] [ 48] color += vec4(weights[1]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 49] c = texture(tex, base + pt * vec2(2.0));
+[   3.663][d][vo/gpu/d3d11] [ 50] color += vec4(weights[2]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 51] c = texture(tex, base + pt * vec2(3.0));
+[   3.663][d][vo/gpu/d3d11] [ 52] color += vec4(weights[3]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 53] c = texture(tex, base + pt * vec2(4.0));
+[   3.663][d][vo/gpu/d3d11] [ 54] color += vec4(weights[4]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 55] c = texture(tex, base + pt * vec2(5.0));
+[   3.663][d][vo/gpu/d3d11] [ 56] color += vec4(weights[5]) * c;
+[   3.663][d][vo/gpu/d3d11] [ 57] }
+[   3.663][d][vo/gpu/d3d11] [ 58] color.a = 1.000000;
+[   3.663][d][vo/gpu/d3d11] [ 59] // scaler post-conversion
+[   3.663][d][vo/gpu/d3d11] [ 60] // color mapping
+[   3.663][d][vo/gpu/d3d11] [ 61] color.rgb *= vec3(1.000000);
+[   3.663][d][vo/gpu/d3d11] [ 62] color.rgb *= vec3(1.000000);
+[   3.663][d][vo/gpu/d3d11] [ 63] // delinearize
+[   3.663][d][vo/gpu/d3d11] [ 64] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   3.663][d][vo/gpu/d3d11] [ 65] color.rgb *= vec3(1.000000);
+[   3.663][d][vo/gpu/d3d11] [ 66] color.rgb = pow(color.rgb, vec3(1.0/2.4));
+[   3.663][d][vo/gpu/d3d11] [ 67] // dithering
+[   3.663][d][vo/gpu/d3d11] [ 68] vec2 dither_pos = gl_FragCoord.xy * 1.0/64.0;
+[   3.663][d][vo/gpu/d3d11] [ 69] float dither_value = texture(dither, dither_pos).r;
+[   3.663][d][vo/gpu/d3d11] [ 70] color = floor(color * 255.0 + dither_value + 0.5 / 4096.0) * 1.0/255.0;
+[   3.663][d][vo/gpu/d3d11] [ 71] out_color = color;
+[   3.663][d][vo/gpu/d3d11] [ 72] }
+[   3.663][d][vo/gpu/d3d11] HLSL source:
+[   3.663][d][vo/gpu/d3d11] [  1] cbuffer _22_24 : register(b0)
+[   3.663][d][vo/gpu/d3d11] [  2] {
+[   3.663][d][vo/gpu/d3d11] [  3]     float3 _24_m0 : packoffset(c0);
+[   3.663][d][vo/gpu/d3d11] [  4]     float3 _24_m1 : packoffset(c1);
+[   3.663][d][vo/gpu/d3d11] [  5]     float2 _24_m2 : packoffset(c2);
+[   3.663][d][vo/gpu/d3d11] [  6]     row_major float2x2 _24_m3 : packoffset(c3);
+[   3.663][d][vo/gpu/d3d11] [  7]     float2 _24_m4 : packoffset(c5);
+[   3.663][d][vo/gpu/d3d11] [  8]     float2 _24_m5 : packoffset(c5.z);
+[   3.663][d][vo/gpu/d3d11] [  9] };
+[   3.663][d][vo/gpu/d3d11] [ 10] 
+[   3.663][d][vo/gpu/d3d11] [ 11] Texture2D<float4> _71 : register(t0);
+[   3.663][d][vo/gpu/d3d11] [ 12] SamplerState __71_sampler : register(s0);
+[   3.663][d][vo/gpu/d3d11] [ 13] Texture2D<float4> _113 : register(t2);
+[   3.664][d][vo/gpu/d3d11] [ 14] SamplerState __113_sampler : register(s2);
+[   3.664][d][vo/gpu/d3d11] [ 15] Texture2D<float4> _261 : register(t1);
+[   3.664][d][vo/gpu/d3d11] [ 16] SamplerState __261_sampler : register(s1);
+[   3.664][d][vo/gpu/d3d11] [ 17] 
+[   3.664][d][vo/gpu/d3d11] [ 18] static float4 gl_FragCoord;
+[   3.664][d][vo/gpu/d3d11] [ 19] static float2 _17;
+[   3.664][d][vo/gpu/d3d11] [ 20] static float4 _280;
+[   3.664][d][vo/gpu/d3d11] [ 21] 
+[   3.664][d][vo/gpu/d3d11] [ 22] struct SPIRV_Cross_Input
+[   3.664][d][vo/gpu/d3d11] [ 23] {
+[   3.664][d][vo/gpu/d3d11] [ 24]     float2 _17 : TEXCOORD1;
+[   3.664][d][vo/gpu/d3d11] [ 25]     float4 gl_FragCoord : SV_Position;
+[   3.664][d][vo/gpu/d3d11] [ 26] };
+[   3.664][d][vo/gpu/d3d11] [ 27] 
+[   3.664][d][vo/gpu/d3d11] [ 28] struct SPIRV_Cross_Output
+[   3.664][d][vo/gpu/d3d11] [ 29] {
+[   3.664][d][vo/gpu/d3d11] [ 30]     float4 _280 : SV_Target0;
+[   3.664][d][vo/gpu/d3d11] [ 31] };
+[   3.664][d][vo/gpu/d3d11] [ 32] 
+[   3.664][d][vo/gpu/d3d11] [ 33] void frag_main()
+[   3.664][d][vo/gpu/d3d11] [ 34] {
+[   3.664][d][vo/gpu/d3d11] [ 35]     float2 _48 = frac(mad(_17, _24_m2, (-0.5f).xx));
+[   3.664][d][vo/gpu/d3d11] [ 36]     float _50 = _48.x;
+[   3.664][d][vo/gpu/d3d11] [ 37]     float2 _61 = mad(-_24_m5, float2(2.0f, 0.0f), _17 - ((_24_m5 * float2(1.0f, 0.0f)) * _50));
+[   3.664][d][vo/gpu/d3d11] [ 38]     float _66 = lerp(0.0078125f, 0.9921875f, _50);
+[   3.664][d][vo/gpu/d3d11] [ 39]     float4 _76 = _71.Sample(__71_sampler, float2(0.25f, _66));
+[   3.664][d][vo/gpu/d3d11] [ 40]     float4 _105 = _71.Sample(__71_sampler, float2(0.75f, _66));
+[   3.664][d][vo/gpu/d3d11] [ 41]     float4 _199 = mad(_105.y.xxxx, _113.Sample(__113_sampler, mad(_24_m5, float2(5.0f, 0.0f), _61)), mad(_105.x.xxxx, _113.Sample(__113_sampler, mad(_24_m5, float2(4.0f, 0.0f), _61)), mad(_76.w.xxxx, _113.Sample(__113_sampler, mad(_24_m5, float2(3.0f, 0.0f), _61)), mad(_76.z.xxxx, _113.Sample(__113_sampler, mad(_24_m5, float2(2.0f, 0.0f), _61)), mad(_76.x.xxxx, _113.Sample(__113_sampler, _61), _76.y.xxxx * _113.Sample(__113_sampler, mad(_24_m5, float2(1.0f, 0.0f), _61)))))));
+[   3.664][d][vo/gpu/d3d11] [ 42]     float _206 = _199.x;
+[   3.664][d][vo/gpu/d3d11] [ 43]     float4 _336 = float4(_206, _199.yz, 1.0f);
+[   3.664][d][vo/gpu/d3d11] [ 44]     _336.x = _206;
+[   3.664][d][vo/gpu/d3d11] [ 45]     _336.y = _199.y;
+[   3.664][d][vo/gpu/d3d11] [ 46]     _336.z = _199.z;
+[   3.664][d][vo/gpu/d3d11] [ 47]     float3 _224 = clamp(_336.xyz, 0.0f.xxx, 1.0f.xxx);
+[   3.664][d][vo/gpu/d3d11] [ 48]     float4 _315 = _336;
+[   3.664][d][vo/gpu/d3d11] [ 49]     _315.x = _224.x;
+[   3.664][d][vo/gpu/d3d11] [ 50]     _315.y = _224.y;
+[   3.664][d][vo/gpu/d3d11] [ 51]     _315.z = _224.z;
+[   3.664][d][vo/gpu/d3d11] [ 52]     float3 _244 = pow(_315.xyz, 0.4166666567325592041015625f.xxx);
+[   3.664][d][vo/gpu/d3d11] [ 53]     float4 _321 = _315;
+[   3.664][d][vo/gpu/d3d11] [ 54]     _321.x = _244.x;
+[   3.664][d][vo/gpu/d3d11] [ 55]     _321.y = _244.y;
+[   3.664][d][vo/gpu/d3d11] [ 56]     _321.z = _244.z;
+[   3.664][d][vo/gpu/d3d11] [ 57]     _280 = (floor(((_321 * 255.0f) + _261.Sample(__261_sampler, (gl_FragCoord.xy * 1.0f) * 0.015625f.xx).x.xxxx) + 0.0001220703125f.xxxx) * 1.0f) * 0.0039215688593685626983642578125f.xxxx;
+[   3.664][d][vo/gpu/d3d11] [ 58] }
+[   3.664][d][vo/gpu/d3d11] [ 59] 
+[   3.664][d][vo/gpu/d3d11] [ 60] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   3.664][d][vo/gpu/d3d11] [ 61] {
+[   3.664][d][vo/gpu/d3d11] [ 62]     gl_FragCoord = stage_input.gl_FragCoord;
+[   3.664][d][vo/gpu/d3d11] [ 63]     gl_FragCoord.w = 1.0 / gl_FragCoord.w;
+[   3.664][d][vo/gpu/d3d11] [ 64]     _17 = stage_input._17;
+[   3.664][d][vo/gpu/d3d11] [ 65]     frag_main();
+[   3.664][d][vo/gpu/d3d11] [ 66]     SPIRV_Cross_Output stage_output;
+[   3.664][d][vo/gpu/d3d11] [ 67]     stage_output._280 = _280;
+[   3.664][d][vo/gpu/d3d11] [ 68]     return stage_output;
+[   3.664][d][vo/gpu/d3d11] [ 69] }
+[   3.665][v][cplayer] first video frame after restart shown
+[   3.665][d][vo/gpu] Resizing texture: 944x463
+[   3.665][v][cplayer] audio ready
+[   3.665][d][cplayer] starting video playback
+[   3.665][v][cplayer] delaying audio start 0.014500 vs. 0.000000, diff=0.014500
+[   3.665][v][cplayer] playback restart complete @ 0.000000, audio=ready, video=playing
+[   3.665][v][cplayer] delaying audio start 0.014500 vs. 0.008022, diff=0.006478
+[   3.666][v][cplayer] starting audio playback
+[   3.666][d][ao/wasapi] Thread Resume
+[   3.666][d][ao/wasapi] Thread Reset
+[   7.604][d][cplayer] Run command: seek, flags=73, args=[target="1410.073348", flags="absolute+exact", legacy="unused"]
+[   7.604][v][lavf] queuing seek to 1410.073348
+[   7.605][v][lavf] execute seek (to 1410.073348 flags 32)
+[   7.605][d][ao/wasapi] Thread Reset
+[   7.605][v][lavf] seek done
+[   7.606][d][osd/libass] ASS library version: 0x1701000 (runtime 0x1701000)
+[   7.606][v][osd/libass] libass API version: 0x1701000
+[   7.606][v][osd/libass] libass source: commit: 0.17.0-55-g5c15c883a4783641f7e71a6a1f440209965eb64f
+[   7.606][v][osd/libass] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.2.1 (COMPLEX)
+[   7.606][v][osd/libass] Setting up fonts...
+[   7.607][v][osd/libass] Using font provider directwrite (with GDI)
+[   7.607][v][osd/libass] Done.
+[   7.611][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   7.613][v][cplayer] hr-seek, skipping to 1410.073348
+[   7.613][v][file] stream level seek from 21828586 to 4786608771
+[   7.613][v][vo/gpu] Reallocating OSD texture to 1024x64.
+[   7.613][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: yuv420p
+[   7.616][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   7.618][v][vo/gpu/d3d11] Compiled a vertex shader in 4163us
+[   7.618][v][vo/gpu/d3d11] shaderc: 2071us, SPIRV-Cross: 196us, D3DCompile: 1896us
+[   7.618][d][vo/gpu/d3d11] GLSL source:
+[   7.618][d][vo/gpu/d3d11] [  1] #version 450
+[   7.618][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   7.618][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   7.618][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   7.618][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   7.618][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord;
+[   7.618][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord;
+[   7.618][d][vo/gpu/d3d11] [  8] layout(location=2) in vec4 vertex_ass_color;
+[   7.618][d][vo/gpu/d3d11] [  9] layout(location=2) out vec4 ass_color;
+[   7.618][d][vo/gpu/d3d11] [ 10] void main() {
+[   7.618][d][vo/gpu/d3d11] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   7.618][d][vo/gpu/d3d11] [ 12] texcoord = vertex_texcoord;
+[   7.618][d][vo/gpu/d3d11] [ 13] ass_color = vertex_ass_color;
+[   7.618][d][vo/gpu/d3d11] [ 14] }
+[   7.618][d][vo/gpu/d3d11] HLSL source:
+[   7.618][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   7.618][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   7.618][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   7.618][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   7.618][d][vo/gpu/d3d11] [  5] static float4 _30;
+[   7.618][d][vo/gpu/d3d11] [  6] static float4 _32;
+[   7.618][d][vo/gpu/d3d11] [  7] 
+[   7.618][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   7.618][d][vo/gpu/d3d11] [  9] {
+[   7.618][d][vo/gpu/d3d11] [ 10]     float2 _18 : TEXCOORD0;
+[   7.618][d][vo/gpu/d3d11] [ 11]     float2 _28 : TEXCOORD1;
+[   7.618][d][vo/gpu/d3d11] [ 12]     float4 _32 : TEXCOORD2;
+[   7.618][d][vo/gpu/d3d11] [ 13] };
+[   7.618][d][vo/gpu/d3d11] [ 14] 
+[   7.618][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Output
+[   7.618][d][vo/gpu/d3d11] [ 16] {
+[   7.618][d][vo/gpu/d3d11] [ 17]     float2 _27 : TEXCOORD1;
+[   7.618][d][vo/gpu/d3d11] [ 18]     float4 _30 : TEXCOORD2;
+[   7.618][d][vo/gpu/d3d11] [ 19]     float4 gl_Position : SV_Position;
+[   7.618][d][vo/gpu/d3d11] [ 20] };
+[   7.618][d][vo/gpu/d3d11] [ 21] 
+[   7.618][d][vo/gpu/d3d11] [ 22] void vert_main()
+[   7.618][d][vo/gpu/d3d11] [ 23] {
+[   7.618][d][vo/gpu/d3d11] [ 24]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   7.618][d][vo/gpu/d3d11] [ 25]     _27 = _28;
+[   7.618][d][vo/gpu/d3d11] [ 26]     _30 = _32;
+[   7.618][d][vo/gpu/d3d11] [ 27]     gl_Position.y = -gl_Position.y;
+[   7.618][d][vo/gpu/d3d11] [ 28] }
+[   7.618][d][vo/gpu/d3d11] [ 29] 
+[   7.618][d][vo/gpu/d3d11] [ 30] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   7.618][d][vo/gpu/d3d11] [ 31] {
+[   7.618][d][vo/gpu/d3d11] [ 32]     _18 = stage_input._18;
+[   7.618][d][vo/gpu/d3d11] [ 33]     _28 = stage_input._28;
+[   7.618][d][vo/gpu/d3d11] [ 34]     _32 = stage_input._32;
+[   7.618][d][vo/gpu/d3d11] [ 35]     vert_main();
+[   7.618][d][vo/gpu/d3d11] [ 36]     SPIRV_Cross_Output stage_output;
+[   7.618][d][vo/gpu/d3d11] [ 37]     stage_output.gl_Position = gl_Position;
+[   7.618][d][vo/gpu/d3d11] [ 38]     stage_output._27 = _27;
+[   7.618][d][vo/gpu/d3d11] [ 39]     stage_output._30 = _30;
+[   7.618][d][vo/gpu/d3d11] [ 40]     return stage_output;
+[   7.618][d][vo/gpu/d3d11] [ 41] }
+[   7.621][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   7.624][v][vo/gpu/d3d11] Compiled a fragment shader in 6307us
+[   7.624][v][vo/gpu/d3d11] shaderc: 3182us, SPIRV-Cross: 334us, D3DCompile: 2791us
+[   7.624][d][vo/gpu/d3d11] GLSL source:
+[   7.624][d][vo/gpu/d3d11] [  1] #version 450
+[   7.624][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   7.624][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   7.624][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   7.624][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   7.624][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord;
+[   7.624][d][vo/gpu/d3d11] [  7] layout(location=2) in vec4 ass_color;
+[   7.624][d][vo/gpu/d3d11] [  8] layout(std140, binding=0) uniform UBO {
+[   7.624][d][vo/gpu/d3d11] [  9] layout(offset=0) vec3 src_luma;
+[   7.624][d][vo/gpu/d3d11] [ 10] layout(offset=16) vec3 dst_luma;
+[   7.625][d][vo/gpu/d3d11] [ 11] };
+[   7.625][d][vo/gpu/d3d11] [ 12] layout(binding=0) uniform sampler2D osdtex;
+[   7.625][d][vo/gpu/d3d11] [ 13] void main() {
+[   7.625][d][vo/gpu/d3d11] [ 14] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   7.625][d][vo/gpu/d3d11] [ 15] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   7.625][d][vo/gpu/d3d11] [ 16] // color mapping
+[   7.625][d][vo/gpu/d3d11] [ 17] color.rgb *= vec3(1.000000);
+[   7.625][d][vo/gpu/d3d11] [ 18] color.rgb *= vec3(1.000000);
+[   7.625][d][vo/gpu/d3d11] [ 19] out_color = color;
+[   7.625][d][vo/gpu/d3d11] [ 20] }
+[   7.625][d][vo/gpu/d3d11] HLSL source:
+[   7.625][d][vo/gpu/d3d11] [  1] Texture2D<float4> _26 : register(t0);
+[   7.625][d][vo/gpu/d3d11] [  2] SamplerState __26_sampler : register(s0);
+[   7.625][d][vo/gpu/d3d11] [  3] 
+[   7.625][d][vo/gpu/d3d11] [  4] static float4 _14;
+[   7.625][d][vo/gpu/d3d11] [  5] static float2 _30;
+[   7.625][d][vo/gpu/d3d11] [  6] static float4 _63;
+[   7.625][d][vo/gpu/d3d11] [  7] 
+[   7.625][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   7.625][d][vo/gpu/d3d11] [  9] {
+[   7.625][d][vo/gpu/d3d11] [ 10]     float2 _30 : TEXCOORD1;
+[   7.625][d][vo/gpu/d3d11] [ 11]     float4 _14 : TEXCOORD2;
+[   7.625][d][vo/gpu/d3d11] [ 12] };
+[   7.625][d][vo/gpu/d3d11] [ 13] 
+[   7.625][d][vo/gpu/d3d11] [ 14] struct SPIRV_Cross_Output
+[   7.625][d][vo/gpu/d3d11] [ 15] {
+[   7.625][d][vo/gpu/d3d11] [ 16]     float4 _63 : SV_Target0;
+[   7.625][d][vo/gpu/d3d11] [ 17] };
+[   7.625][d][vo/gpu/d3d11] [ 18] 
+[   7.625][d][vo/gpu/d3d11] [ 19] void frag_main()
+[   7.625][d][vo/gpu/d3d11] [ 20] {
+[   7.625][d][vo/gpu/d3d11] [ 21]     float4 _39 = float4(_14.xyz, _14.w * _26.Sample(__26_sampler, _30).x);
+[   7.625][d][vo/gpu/d3d11] [ 22]     _39.x = _14.x;
+[   7.625][d][vo/gpu/d3d11] [ 23]     _39.y = _14.y;
+[   7.625][d][vo/gpu/d3d11] [ 24]     _39.z = _14.z;
+[   7.625][d][vo/gpu/d3d11] [ 25]     _63 = _39;
+[   7.625][d][vo/gpu/d3d11] [ 26] }
+[   7.625][d][vo/gpu/d3d11] [ 27] 
+[   7.625][d][vo/gpu/d3d11] [ 28] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   7.625][d][vo/gpu/d3d11] [ 29] {
+[   7.625][d][vo/gpu/d3d11] [ 30]     _14 = stage_input._14;
+[   7.625][d][vo/gpu/d3d11] [ 31]     _30 = stage_input._30;
+[   7.625][d][vo/gpu/d3d11] [ 32]     frag_main();
+[   7.625][d][vo/gpu/d3d11] [ 33]     SPIRV_Cross_Output stage_output;
+[   7.625][d][vo/gpu/d3d11] [ 34]     stage_output._63 = _63;
+[   7.625][d][vo/gpu/d3d11] [ 35]     return stage_output;
+[   7.625][d][vo/gpu/d3d11] [ 36] }
+[   7.631][v][vd] Decoder format: 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   7.631][v][vd] Using container aspect ratio.
+[   7.636][v][vo/gpu] Reallocating OSD texture to 1024x128.
+[   7.637][v][cplayer] first video frame after restart shown
+[   7.638][v][cplayer] audio ready
+[   7.638][d][cplayer] starting video playback
+[   7.638][v][cplayer] starting audio playback
+[   7.638][v][cplayer] playback restart complete @ 1410.072978, audio=playing, video=playing
+[   7.638][d][ao/wasapi] Thread Resume
+[   7.638][d][ao/wasapi] Thread Reset
+[   9.326][d][cplayer] Run command: seek, flags=73, args=[target="1690.221663", flags="absolute+exact", legacy="unused"]
+[   9.326][v][lavf] queuing seek to 1690.221663
+[   9.327][v][lavf] execute seek (to 1690.221663 flags 32)
+[   9.327][d][ao/wasapi] Thread Reset
+[   9.327][v][lavf] seek done
+[   9.339][v][cplayer] hr-seek, skipping to 1690.221663
+[   9.339][v][file] stream level seek from 4796840811 to 5736702634
+[   9.339][v][file] stream level seek from 5736833706 to 5739028285
+[   9.343][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: yuv420p
+[   9.362][v][vd] Decoder format: 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   9.362][v][vd] Using container aspect ratio.
+[   9.380][v][cplayer] first video frame after restart shown
+[   9.381][v][cplayer] audio ready
+[   9.381][d][cplayer] starting video playback
+[   9.381][v][cplayer] starting audio playback
+[   9.381][v][cplayer] playback restart complete @ 1690.221811, audio=playing, video=playing
+[   9.381][d][ao/wasapi] Thread Resume
+[   9.381][d][ao/wasapi] Thread Reset
+[  14.936][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[  14.936][v][cplayer] EOF code: 5  
+[  14.936][d][ad] Uninit decoder.
+[  14.936][d][ao/wasapi] Thread Reset
+[  14.936][d][main] Exiting...
+[  14.936][d][vd] Uninit decoder.
+[  14.950][d][cplayer] Terminating demuxers...
+[  14.950][d][cplayer] Run command: quit, flags=64, args=[code="0"]
+[  14.951][d][cplayer] Done terminating demuxers.
+[  14.951][v][cplayer] finished playback, success (reason 3)
+[  14.951][i][cplayer] 
+[  14.951][d][ao/wasapi] Uninit wasapi
+[  14.954][d][ao/wasapi] Thread Reset
+[  14.954][d][ao/wasapi] Thread shutdown
+[  14.954][d][ao/wasapi] Thread uninit done
+[  14.954][d][ao/wasapi] Thread return
+[  14.959][d][ao/wasapi] Uninit wasapi done
+[  14.959][d][vo/gpu] flushing shader cache
+[  14.966][v][vo/gpu/win32] uninit

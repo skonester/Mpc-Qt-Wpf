@@ -9,3 +9,14 @@ C:\Users\admin\OneDrive\Desktop\MpcQtWpf\MpcQtWpf.Interop\obj\Debug\net7.0-windo
 C:\Users\admin\OneDrive\Desktop\MpcQtWpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\refint\MpcQtWpf.Interop.dll
 C:\Users\admin\OneDrive\Desktop\MpcQtWpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.pdb
 C:\Users\admin\OneDrive\Desktop\MpcQtWpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\ref\MpcQtWpf.Interop.dll
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\bin\Debug\net7.0-windows\MpcQtWpf.Interop.deps.json
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\bin\Debug\net7.0-windows\MpcQtWpf.Interop.dll
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\bin\Debug\net7.0-windows\MpcQtWpf.Interop.pdb
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.dll
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\refint\MpcQtWpf.Interop.dll
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\MpcQtWpf.Interop.pdb
+C:\Users\admin\OneDrive\Desktop\Mpc-Qt-Wpf\MpcQtWpf.Interop\obj\Debug\net7.0-windows\ref\MpcQtWpf.Interop.dll

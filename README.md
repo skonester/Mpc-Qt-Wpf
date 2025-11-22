@@ -1,37 +1,34 @@
-# MpcQtWpf — WPF Media Player with libmpv (inspired by MPC‑QT)
+-requires libmpv-2.dll
+-built on .NET 7 framework
 
-## Overview
-MpcQtWpf is a modern WPF media player frontend built on the .NET 7 framework, powered by **libmpv‑2.dll** for high‑performance playback. Inspired by MPC‑QT, it combines a classic Windows UI with the flexibility of mpv, now enhanced with **yt‑dlp integration** for streaming online content directly.
+🎬 MpcQtWpf — WPF Media Player with libmpv( inspired by MPC-QT)
 
-## Features
 
-### WPF Frontend
-- Provides a familiar Windows desktop interface with playback controls (Open File, Play/Pause, Stop).
-- Uses `WindowsFormsHost` to embed a WinForms panel inside WPF, where mpv renders video.
-- Status text area updates dynamically to reflect playback state.
+What This Project Does
+- WPF Frontend
+- Provides a classic Windows UI with playback buttons (Open File, Play/Pause, Stop) and a status text area.
+- Uses a WindowsFormsHost to embed a WinForms Panel inside WPF — this is where mpv renders video.
+- libmpv Integration
+- Through MpvInterop.cs, you call into the native libmpv-2.dll.
+- This lets you control playback (loadfile, cycle pause, stop, quit) and attach mpv’s video output to a specific window handle.
+- MediaPlayerService.cs
+- Wraps all the mpv interop calls in a clean C# class.
+- Handles initialization, attaching mpv to the panel, loading files, pausing, stopping, and disposing.
+- Writes logs to mpv.log so you can debug playback issues.
+- MainWindow.xaml.cs
+- Wires up the UI to the service.
+- When you click Open File, it launches a WPF OpenFileDialog, passes the chosen file path to mpv, and starts playback.
+- Play/Pause toggles playback state, Stop halts playback.
+- Status text updates to show what’s happening.
 
-### libmpv Integration
-- `MpvInterop.cs` bridges managed C# code with native **libmpv‑2.dll**.
-- Supports core playback commands: `loadfile`, `cycle pause`, `stop`, `quit`.
-- Attaches mpv’s video output to a specific window handle for seamless rendering.
+🖥️ End Result
+When you run the app:
+- A window opens with basic playback controls.
+- You choose a media file (video or audio).
+- mpv renders the media inside the black panel embedded in your WPF window.
+- You can pause/resume or stop playback with the buttons.
+It’s basically a minimal mpv‑based media player with a WPF UI, giving you the foundation to expand into a full‑featured player (seek bar, playlist, volume control, subtitles, etc.).
 
-### MediaPlayerService.cs
-- Encapsulates all mpv interop calls in a clean, reusable C# service.
-- Handles initialization, window attachment, file loading, pausing, stopping, and disposal.
-- Writes detailed logs to `mpv.log` for debugging and diagnostics.
+👉 In short: this project is a WPF wrapper around libmpv that plays media files inside a custom UI.
 
-### MainWindow.xaml.cs
-- Connects the WPF UI to the media service.
-- **Open File** launches a WPF `OpenFileDialog` and passes the selected file path to mpv.
-- **Open URL** integrates with **yt‑dlp**, resolving streaming links (e.g. YouTube) into playable streams before handing them to mpv.
-- Playback controls (Play/Pause, Stop) update the status text to reflect current actions.
 
-## Requirements
-- .NET 7 framework
-- `libmpv-2.dll` (place in main folder during development)
-- `yt-dlp.exe` (already included in the project)
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/MpcQtWpf.git

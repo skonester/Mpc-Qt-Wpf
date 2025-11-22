@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\MpcQtWpf\\MpcQtWpf\\MpcQtWpf.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\Mpc-Qt-Wpf\\MpcQtWpf\\MpcQtWpf.csproj",
       "projectName": "MpcQtWpf",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\MpcQtWpf\\MpcQtWpf\\MpcQtWpf.csproj",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\Mpc-Qt-Wpf\\MpcQtWpf\\MpcQtWpf.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\MpcQtWpf\\MpcQtWpf\\obj\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\Mpc-Qt-Wpf\\MpcQtWpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\admin\\OneDrive\\Desktop\\MpcQtWpf\\MpcQtWpf.Interop\\MpcQtWpf.Interop.csproj": {
-              "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\MpcQtWpf\\MpcQtWpf.Interop\\MpcQtWpf.Interop.csproj"
+            "C:\\Users\\admin\\OneDrive\\Desktop\\Mpc-Qt-Wpf\\MpcQtWpf.Interop\\MpcQtWpf.Interop.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\Mpc-Qt-Wpf\\MpcQtWpf.Interop\\MpcQtWpf.Interop.csproj"
             }
           }
         }

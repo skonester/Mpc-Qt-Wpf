@@ -3,42 +3,72 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
-        Title="MPC-QT WPF (libmpv)" Height="540" Width="960">
+        Title="MPC-QT WPF (libmpv)"
+        Height="540" Width="960"
+        Background="Black"
+        WindowStyle="SingleBorderWindow">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="8">
-            <Button Content="Open File" Click="OpenFile_Click"/>
-            <Button Content="Play/Pause" Click="PlayPause_Click"/>
-            <Button Content="Stop" Click="Stop_Click"/>
 
-            <!-- NEW: Seek bar -->
-            <Slider x:Name="SeekBar" Width="200" Minimum="0" Maximum="100"
-                    ValueChanged="SeekBar_ValueChanged"/>
-
-            <!-- NEW: Volume slider -->
-            <Slider x:Name="VolumeSlider" Width="100" Minimum="0" Maximum="100"
-                    Value="50" ValueChanged="VolumeSlider_ValueChanged"/>
-
-            <!-- NEW: Extra buttons based on mpv features -->
-            <Button Content="Subtitles" Click="ToggleSubtitles_Click"/>
-            <Button Content="Audio Track" Click="CycleAudioTrack_Click"/>
-            <Button Content="Hardware Accel" Click="ToggleHwAccel_Click"/>
-            <Button Content="Stats Overlay" Click="ToggleStats_Click"/>
-            <Button Content="Open URL" Click="OpenUrl_Click"/>
-        </StackPanel>
-
-        <Border Grid.Row="1" Margin="8" Background="Black">
+        <!-- Video playback area -->
+        <Border Grid.Row="0" Background="Black">
             <wfi:WindowsFormsHost x:Name="WinFormsHost">
                 <wf:Panel x:Name="VideoPanel" BackColor="Black" />
             </wfi:WindowsFormsHost>
         </Border>
 
-        <TextBlock Grid.Row="2" Margin="8" x:Name="StatusText" Text="Ready" />
+        <!-- Control bar -->
+        <DockPanel Grid.Row="1" Background="#2E2E2E" LastChildFill="True">
+            <!-- Seek bar across top -->
+            <Slider x:Name="SeekBar"
+                    Minimum="0"
+                    Maximum="100"
+                    DockPanel.Dock="Top"
+                    ValueChanged="SeekBar_ValueChanged"
+                    IsSnapToTickEnabled="False"
+                    TickFrequency="1"
+                    SmallChange="1"
+                    LargeChange="10"
+                    Thumb.DragStarted="SeekBar_DragStarted"
+                    Thumb.DragCompleted="SeekBar_DragCompleted"/>
+
+            <!-- Left side: playback + feature buttons -->
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" HorizontalAlignment="Left">
+                <Button Content="⏮" Click="OpenFile_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="▶/⏸" Click="PlayPause_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="⏹" Click="Stop_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="CC" Click="ToggleSubtitles_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="🔊" Click="CycleAudioTrack_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="HW" Click="ToggleHwAccel_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="ℹ" Click="ToggleStats_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+                <Button Content="🌐" Click="OpenUrl_Click"
+                        Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            </StackPanel>
+
+            <!-- Right side: status + volume -->
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" HorizontalAlignment="Right">
+                <TextBlock x:Name="StatusText"
+                           Text="Ready"
+                           Foreground="White"
+                           VerticalAlignment="Center"/>
+                <Slider x:Name="VolumeSlider"
+                        Width="80"
+                        Minimum="0"
+                        Maximum="100"
+                        Value="50"
+                        ValueChanged="VolumeSlider_ValueChanged"/>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>
-<!-- ← this must be present -->

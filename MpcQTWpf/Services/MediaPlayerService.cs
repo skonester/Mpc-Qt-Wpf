@@ -33,9 +33,11 @@ namespace MpcQtWpf.Services
 
         public void LoadFile(string pathOrUrl)
         {
-            // Escape backslashes so mpv parses Windows paths correctly
             string escaped = pathOrUrl.Replace("\\", "\\\\");
             MpvInterop.mpv_command_string(_mpv, $"loadfile \"{escaped}\"");
+
+            // Explicitly unpause so playback begins
+            MpvInterop.mpv_command_string(_mpv, "set pause no");
         }
 
         public void TogglePause() => MpvInterop.mpv_command_string(_mpv, "cycle pause");
@@ -45,21 +47,49 @@ namespace MpcQtWpf.Services
         public void ToggleSubtitles() => MpvInterop.mpv_command_string(_mpv, "cycle sub");
         public void ToggleStats() => MpvInterop.mpv_command_string(_mpv, "script-message stats-toggle");
 
+        /// <summary>
+        /// Seek to an absolute position in seconds.
+        /// </summary>
         public void Seek(double positionSeconds)
         {
-            MpvInterop.mpv_command_string(_mpv, $"seek {positionSeconds} absolute");
+            MpvInterop.mpv_command_string(_mpv, $"seek {positionSeconds} absolute+exact");
         }
 
         public void ToggleHwAccel()
         {
-            // This tells mpv to toggle hardware decoding
             MpvInterop.mpv_command_string(_mpv, "set hwdec auto");
         }
 
         public void SetVolume(double volumePercent)
         {
-            // mpv expects volume as a percentage (0–100)
             MpvInterop.mpv_command_string(_mpv, $"set volume {volumePercent}");
+        }
+
+        /// <summary>
+        /// Current playback position in seconds.
+        /// </summary>
+        public double GetPosition()
+        {
+            double pos = 0;
+            int err = MpvInterop.mpv_get_property(_mpv, "time-pos", MpvInterop.mpv_format.MPV_FORMAT_DOUBLE, ref pos);
+
+            if (err < 0 || pos < 0.01)
+            {
+                // fallback: try playback-time
+                err = MpvInterop.mpv_get_property(_mpv, "playback-time", MpvInterop.mpv_format.MPV_FORMAT_DOUBLE, ref pos);
+            }
+
+            return (err >= 0 && pos >= 0) ? pos : 0.0;
+        }
+
+        /// <summary>
+        /// Total duration of the loaded file in seconds.
+        /// </summary>
+        public double GetDuration()
+        {
+            double dur = 0;
+            int err = MpvInterop.mpv_get_property(_mpv, "duration", MpvInterop.mpv_format.MPV_FORMAT_DOUBLE, ref dur);
+            return (err >= 0 && dur > 0) ? dur : 0.0;
         }
 
         public void Dispose()
